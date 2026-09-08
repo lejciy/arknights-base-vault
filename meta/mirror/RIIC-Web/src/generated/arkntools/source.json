@@ -1,0 +1,51 @@
+{
+  "version": 2,
+  "source": {
+    "repository": "https://github.com/arkntools/arknights-toolbox-data",
+    "commit": "302105b1404bd488c4700d063da9dcf3661a94f0"
+  },
+  "portraitsSource": {
+    "repository": "https://github.com/yuanyan3060/ArknightsGameResource",
+    "commit": "bb48105cf738b41648c0a9dbb58bfbc6541e0a81"
+  },
+  "products": [
+    {
+      "id": "lmd_orders",
+      "output": "/images/products/lmd_orders.webp",
+      "source": "arkntools",
+      "path": "assets/img/item/4001.png"
+    },
+    {
+      "id": "gold",
+      "output": "/images/products/gold.webp",
+      "source": "game-resource",
+      "path": "item/MTL_GOLD3.png"
+    },
+    {
+      "id": "experience",
+      "output": "/images/products/experience.webp",
+      "source": "arkntools",
+      "path": "assets/img/item/2003.png"
+    },
+    {
+      "id": "originium_shard",
+      "output": "/images/products/originium_shard.webp",
+      "source": "game-resource",
+      "path": "item/MTL_DIAMOND_SHD.png"
+    },
+    {
+      "id": "orundum",
+      "output": "/images/products/orundum.webp",
+      "source": "game-resource",
+      "path": "item/DIAMOND_SHD.png"
+    }
+  ],
+  "counts": {
+    "operators": 429,
+    "buildingSkills": 755,
+    "terms": 82,
+    "portraits": 429,
+    "buildingSkillIcons": 529,
+    "productIcons": 5
+  }
+}

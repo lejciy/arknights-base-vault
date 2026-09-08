@@ -1,0 +1,2111 @@
+{
+  "terms": {
+    "cc_angel": {
+      "id": "cc_angel",
+      "name": "能天使",
+      "desc": "包含以下干员 新约能天使、能天使"
+    },
+    "cc_bd_A": {
+      "id": "cc_bd_A",
+      "name": "思维链环",
+      "desc": "可影响念力、意识实体相关技能 由以下干员的基建技能提供 迷迭香"
+    },
+    "cc_bd_A_1": {
+      "id": "cc_bd_A_1",
+      "name": "念力",
+      "desc": "拥有该基建技能的干员 迷迭香"
+    },
+    "cc_bd_A_2": {
+      "id": "cc_bd_A_2",
+      "name": "意识实体",
+      "desc": "拥有该基建技能的干员 迷迭香"
+    },
+    "cc_bd_a1": {
+      "id": "cc_bd_a1",
+      "name": "感知信息",
+      "desc": "可影响思维链环、无声共鸣相关变量 由以下干员的基建技能提供 迷迭香、黑键、夕、令、絮雨、爱丽丝、车尔尼"
+    },
+    "cc_bd_a1_a1": {
+      "id": "cc_bd_a1_a1",
+      "name": "记忆碎片",
+      "desc": "可影响感知信息相关变量 由以下干员的基建技能提供 絮雨"
+    },
+    "cc_bd_a1_a2": {
+      "id": "cc_bd_a1_a2",
+      "name": "梦境",
+      "desc": "可影响感知信息相关变量 由以下干员的基建技能提供 爱丽丝"
+    },
+    "cc_bd_a1_a3": {
+      "id": "cc_bd_a1_a3",
+      "name": "小节",
+      "desc": "可影响感知信息相关变量 由以下干员的基建技能提供 车尔尼"
+    },
+    "cc_bd_ash": {
+      "id": "cc_bd_ash",
+      "name": "情报储备",
+      "desc": "由以下干员的基建技能提供 灰烬"
+    },
+    "cc_bd_B": {
+      "id": "cc_bd_B",
+      "name": "无声共鸣",
+      "desc": "可影响徘徊旋律、怅惘和声、无词颂歌相关技能 由以下干员的基建技能提供 黑键、塑心、深律"
+    },
+    "cc_bd_B_1": {
+      "id": "cc_bd_B_1",
+      "name": "徘徊旋律",
+      "desc": "拥有该基建技能的干员 黑键"
+    },
+    "cc_bd_B_2": {
+      "id": "cc_bd_B_2",
+      "name": "怅惘和声",
+      "desc": "拥有该基建技能的干员 黑键"
+    },
+    "cc_bd_B_3": {
+      "id": "cc_bd_B_3",
+      "name": "无词颂歌",
+      "desc": "拥有该基建技能的干员 塑心"
+    },
+    "cc_bd_b1": {
+      "id": "cc_bd_b1",
+      "name": "人间烟火",
+      "desc": "可影响巫术结晶相关技能 由以下干员的基建技能提供 夕、令、重岳、乌有、桑葚"
+    },
+    "cc_bd_C": {
+      "id": "cc_bd_C",
+      "name": "巫术结晶",
+      "desc": "拥有该基建技能的干员 截云"
+    },
+    "cc_bd_costdrop": {
+      "id": "cc_bd_costdrop",
+      "name": "心情落差",
+      "desc": "干员自身心情上限与当前心情值的差值"
+    },
+    "cc_bd_dungeon": {
+      "id": "cc_bd_dungeon",
+      "name": "魔物料理",
+      "desc": "由以下干员的基建技能提供 森西"
+    },
+    "cc_bd_felyne": {
+      "id": "cc_bd_felyne",
+      "name": "木天蓼",
+      "desc": "可影响可爱的艾露猫、可靠的随从们相关技能 由以下干员的基建技能提供 火龙S黑角、麒麟R夜刀"
+    },
+    "cc_bd_felyne_1": {
+      "id": "cc_bd_felyne_1",
+      "name": "可爱的艾露猫",
+      "desc": "拥有该基建技能的干员 泰拉大陆调查团"
+    },
+    "cc_bd_felyne_2": {
+      "id": "cc_bd_felyne_2",
+      "name": "可靠的随从们",
+      "desc": "拥有该基建技能的干员 泰拉大陆调查团"
+    },
+    "cc_bd_malist": {
+      "id": "cc_bd_malist",
+      "name": "工程机器人",
+      "desc": "由以下干员的基建技能提供 至简"
+    },
+    "cc_bd_mujica": {
+      "id": "cc_bd_mujica",
+      "name": "热情值",
+      "desc": "可影响丰富工作经验、演技的怪物相关技能 由以下干员的基建技能提供 八幡海铃、三角初华、祐天寺若麦、若叶睦"
+    },
+    "cc_bd_mujica_1": {
+      "id": "cc_bd_mujica_1",
+      "name": "丰富工作经验",
+      "desc": "拥有该基建技能的干员 丰川祥子"
+    },
+    "cc_bd_mujica_2": {
+      "id": "cc_bd_mujica_2",
+      "name": "演技的怪物",
+      "desc": "拥有该基建技能的干员 若叶睦"
+    },
+    "cc_bd_tachanka": {
+      "id": "cc_bd_tachanka",
+      "name": "乌萨斯特饮",
+      "desc": "由以下干员的基建技能提供 战车"
+    },
+    "cc_bd_wang_1": {
+      "id": "cc_bd_wang_1",
+      "name": "外势",
+      "desc": "由以下干员的基建技能提供 望 每有一间贸易站、发电站，外势+1"
+    },
+    "cc_bd_wang_2": {
+      "id": "cc_bd_wang_2",
+      "name": "实地",
+      "desc": "由以下干员的基建技能提供 望 每有一间制造站，实地+1"
+    },
+    "cc_c_abyssal2_1": {
+      "id": "cc_c_abyssal2_1",
+      "name": "特殊加成",
+      "desc": "每有1个深海猎人干员进驻制造站，则控制中枢给每个进驻深海猎人的制造站提供5%生产力，最多给单个制造站提供45%生产力"
+    },
+    "cc_c_abyssal2_2": {
+      "id": "cc_c_abyssal2_2",
+      "name": "特殊加成",
+      "desc": "每有1个深海猎人干员进驻制造站，则控制中枢给每个进驻深海猎人的制造站提供10%生产力，最多给单个制造站提供90%生产力"
+    },
+    "cc_c_abyssal2_3": {
+      "id": "cc_c_abyssal2_3",
+      "name": "特殊叠加规则",
+      "desc": "无法与配合意识进行叠加，且优先生效 无法与自动化·α、自动化·β、仿生海龙进行叠加，且清零效果优先生效"
+    },
+    "cc_c_room1": {
+      "id": "cc_c_room1",
+      "name": "部分设施",
+      "desc": "包含以下设施 发电站、人力办公室、会客室"
+    },
+    "cc_c_room2": {
+      "id": "cc_c_room2",
+      "name": "其他设施",
+      "desc": "包含以下设施 发电站、制造站、贸易站、人力办公室、会客室"
+    },
+    "cc_c_room3": {
+      "id": "cc_c_room3",
+      "name": "工作场所",
+      "desc": "包含以下设施 发电站、制造站、贸易站、人力办公室、会客室、控制中枢、训练室"
+    },
+    "cc_c_skill": {
+      "id": "cc_c_skill",
+      "name": "部分技能",
+      "desc": "包含以下技能 左膀右臂、S.W.E.E.P.、零食网络、清理协议、替身、必要责任、护卫、小小的领袖、独善其身、笑靥如春、金盏花诗会、捍卫之道、博识生手、点滴关照、总工程师"
+    },
+    "cc_c_sui2_1": {
+      "id": "cc_c_sui2_1",
+      "name": "特殊比较规则",
+      "desc": "在公事公办，孤光共照，巴别塔之帜提供的其他设施每小时心情恢复值中取最高生效"
+    },
+    "cc_g_A1": {
+      "id": "cc_g_A1",
+      "name": "A1小队",
+      "desc": "包含以下干员 芙蓉、炎熔、米格鲁、芬、克洛丝"
+    },
+    "cc_g_abyssal": {
+      "id": "cc_g_abyssal",
+      "name": "深海猎人",
+      "desc": "包含以下干员 歌蕾蒂娅、斯卡蒂、幽灵鲨、安哲拉、乌尔比安"
+    },
+    "cc_g_Attack": {
+      "id": "cc_g_Attack",
+      "name": "进攻方",
+      "desc": "包含以下干员 灰烬、闪击、双月、导火索"
+    },
+    "cc_g_bs": {
+      "id": "cc_g_bs",
+      "name": "黑钢国际",
+      "desc": "包含以下干员 雷蛇、芙兰卡、杰西卡、香草、杏仁、寻澜"
+    },
+    "cc_g_Defence": {
+      "id": "cc_g_Defence",
+      "name": "防守方",
+      "desc": "包含以下干员 战车、霜华、艾拉、医生"
+    },
+    "cc_g_elite": {
+      "id": "cc_g_elite",
+      "name": "精英干员",
+      "desc": "包含以下干员 迷迭香、煌、逻各斯、烛煌、电弧、真言、机械师"
+    },
+    "cc_g_glasgow": {
+      "id": "cc_g_glasgow",
+      "name": "格拉斯哥帮",
+      "desc": "包含以下干员 推进之王、摩根、达格达、因陀罗"
+    },
+    "cc_g_karlan": {
+      "id": "cc_g_karlan",
+      "name": "谢拉格",
+      "desc": "包含以下干员 银灰、灵知、初雪、崖心、角峰、讯使、耶拉、极光、锏、雪猎"
+    },
+    "cc_g_laterano": {
+      "id": "cc_g_laterano",
+      "name": "拉特兰",
+      "desc": "包含以下干员 翎羽、安德切尔、送葬人、莫斯提马、安比尔、芳汀、空弦、菲亚梅塔、见行者、空构、隐现、塑心、蕾缪安、信仰搅拌机、CONFESS-47"
+    },
+    "cc_g_lda": {
+      "id": "cc_g_lda",
+      "name": "鲤氏侦探事务所",
+      "desc": "包含以下干员 老鲤、阿、吽、槐琥"
+    },
+    "cc_g_lgd": {
+      "id": "cc_g_lgd",
+      "name": "龙门近卫局",
+      "desc": "包含以下干员 陈、星熊、诗怀雅"
+    },
+    "cc_g_minos": {
+      "id": "cc_g_minos",
+      "name": "米诺斯",
+      "desc": "包含以下干员 埃拉托、帕拉斯、铸铁、断罪者、火神、摆渡人"
+    },
+    "cc_g_psk": {
+      "id": "cc_g_psk",
+      "name": "红松骑士团",
+      "desc": "包含以下干员 焰尾、远牙、灰毫、野鬃、正义骑士号"
+    },
+    "cc_g_R6": {
+      "id": "cc_g_R6",
+      "name": "彩虹小队",
+      "desc": "包含以下干员 灰烬、战车、闪击、霜华、艾拉、医生、双月、导火索"
+    },
+    "cc_g_rh": {
+      "id": "cc_g_rh",
+      "name": "莱茵生命",
+      "desc": "包含以下干员 赫默、伊芙利特、塞雷娅、白面鸮、梅尔、麦哲伦、多萝西、星源、缪尔赛思、娜斯提"
+    },
+    "cc_g_sargon": {
+      "id": "cc_g_sargon",
+      "name": "萨尔贡",
+      "desc": "包含以下干员 钼铅、菲莱、佩佩、娜仁图亚、衡沙、莎草、红隼、铅踝、图耶、泡泡、森蚺、燧石、特米米、蜜蜡、稀音、慑砂、狮蝎、异客、艾丝黛尔、至简、哈蒂娅、缇缇"
+    },
+    "cc_g_siracusa": {
+      "id": "cc_g_siracusa",
+      "name": "叙拉古",
+      "desc": "包含以下干员 安洁莉娜、拉普兰德、普罗旺斯、红云、布洛卡、巫恋、铃兰、贾维、奥斯塔、斥罪、子月、伺夜、阿罗玛、忍冬、裁度、荒芜拉普兰德、贝洛内、复奏"
+    },
+    "cc_g_sm": {
+      "id": "cc_g_sm",
+      "name": "萨米",
+      "desc": "包含以下干员 远山、柏喙、雪绒、提丰、寒檀、凛视"
+    },
+    "cc_g_sp": {
+      "id": "cc_g_sp",
+      "name": "异格",
+      "desc": "包含所有异格干员"
+    },
+    "cc_g_sui": {
+      "id": "cc_g_sui",
+      "name": "岁",
+      "desc": "包含以下干员 年、夕、令、重岳、黍、余、望"
+    },
+    "cc_g_ussg": {
+      "id": "cc_g_ussg",
+      "name": "乌萨斯学生自治团",
+      "desc": "包含以下干员 早露、凛冬、真理、古米、烈夏、苦艾"
+    },
+    "cc_gvial": {
+      "id": "cc_gvial",
+      "name": "嘉维尔",
+      "desc": "包含以下干员 百炼嘉维尔、嘉维尔"
+    },
+    "cc_m_pow1": {
+      "id": "cc_m_pow1",
+      "name": "自动化·α",
+      "desc": "由以下干员提供 温蒂、森蚺、异客"
+    },
+    "cc_m_pow2": {
+      "id": "cc_m_pow2",
+      "name": "自动化·β",
+      "desc": "由以下干员提供 森蚺"
+    },
+    "cc_m_pow3": {
+      "id": "cc_m_pow3",
+      "name": "仿生海龙",
+      "desc": "由以下干员提供 温蒂"
+    },
+    "cc_m_var1": {
+      "id": "cc_m_var1",
+      "name": "回收利用",
+      "desc": "拥有该基建技能的干员 红云"
+    },
+    "cc_m_var2": {
+      "id": "cc_m_var2",
+      "name": "配合意识",
+      "desc": "拥有该基建技能的干员 槐琥"
+    },
+    "cc_sk_manu1": {
+      "id": "cc_sk_manu1",
+      "name": "标准化类技能",
+      "desc": "包含以下技能 标准化·α、标准化·β"
+    },
+    "cc_sk_manu2": {
+      "id": "cc_sk_manu2",
+      "name": "莱茵科技类技能",
+      "desc": "包含以下技能 莱茵科技·α、莱茵科技·β、莱茵科技·γ"
+    },
+    "cc_sk_manu3": {
+      "id": "cc_sk_manu3",
+      "name": "红松骑士团类技能",
+      "desc": "包含以下技能 红松骑士团·α、红松骑士团·β"
+    },
+    "cc_sk_manu4": {
+      "id": "cc_sk_manu4",
+      "name": "金属工艺类技能",
+      "desc": "包含以下技能 金属工艺·α、金属工艺·β"
+    },
+    "cc_t_accmuguard1": {
+      "id": "cc_t_accmuguard1",
+      "name": "武道",
+      "desc": "协助专精训练至1级时累计1点、2级时累计2点、3级时累计3点，累计上限为3点（协助者心情为0时，无法累计或消耗）"
+    },
+    "cc_t_flow_gold": {
+      "id": "cc_t_flow_gold",
+      "name": "赤金生产线",
+      "desc": "每有1间制造站生产赤金，则赤金生产线+1"
+    },
+    "cc_t_snsant1": {
+      "id": "cc_t_snsant1",
+      "name": "天道酬勤·α",
+      "desc": "拥有该基建技能的干员 雪雉"
+    },
+    "cc_t_snsant2": {
+      "id": "cc_t_snsant2",
+      "name": "天道酬勤·β",
+      "desc": "拥有该基建技能的干员 雪雉"
+    },
+    "cc_t_strong2": {
+      "id": "cc_t_strong2",
+      "name": "特殊叠加规则",
+      "desc": "无法单独与天道酬勤·α、天道酬勤·β进行叠加，且优先生效 当天道酬勤·α、天道酬勤·β与其他技能进行叠加时，该技能会对此叠加效果进行叠加"
+    },
+    "cc_tag_dungeon": {
+      "id": "cc_tag_dungeon",
+      "name": "莱欧斯小队",
+      "desc": "包含以下干员 玛露西尔、莱欧斯、齐尔查克、森西"
+    },
+    "cc_tag_durin": {
+      "id": "cc_tag_durin",
+      "name": "杜林族",
+      "desc": "包含以下干员 至简、桃金娘、褐果、杜林、特克诺"
+    },
+    "cc_tag_knight": {
+      "id": "cc_tag_knight",
+      "name": "骑士",
+      "desc": "包含以下干员 耀骑士临光、临光、瑕光、鞭刃、焰尾、远牙、灰毫、野鬃、正义骑士号、砾、薇薇安娜"
+    },
+    "cc_tag_mh": {
+      "id": "cc_tag_mh",
+      "name": "怪物猎人小队",
+      "desc": "包含以下干员 火龙S黑角、麒麟R夜刀、泰拉大陆调查团"
+    },
+    "cc_tag_mh2": {
+      "id": "cc_tag_mh2",
+      "name": "泡影国狩猎小队",
+      "desc": "包含以下干员 焰狐龙梓兰、雷狼龙S空爆、罗德岛隐秘队"
+    },
+    "cc_tag_op": {
+      "id": "cc_tag_op",
+      "name": "作业平台",
+      "desc": "包含以下干员 Lancet-2、Castle-3、THRM-EX、正义骑士号、Friston-3、PhonoR-0、CONFESS-47、GALLUS²"
+    },
+    "cc_tag_sees": {
+      "id": "cc_tag_sees",
+      "name": "S.E.E.S.",
+      "desc": "包含以下干员 结城理、埃癸斯、岳羽由加莉、虎狼丸"
+    },
+    "cc_tra_closure": {
+      "id": "cc_tra_closure",
+      "name": "可露希尔特别订单",
+      "desc": "由可露希尔提供的特殊贵金属订单，该订单的收益恒定，所需赤金交付数为2"
+    },
+    "cc_tra_pepe": {
+      "id": "cc_tra_pepe",
+      "name": "特别独占订单",
+      "desc": "由佩佩提供的特殊贵金属订单，该订单的获取时长固定，收益恒定，所需赤金交付数为0"
+    },
+    "cc_w_ncdeer1": {
+      "id": "cc_w_ncdeer1",
+      "name": "因果",
+      "desc": "每当加工心情消耗4以下的配方未产出副产品时，所消耗的每1点心情转化为1点因果"
+    },
+    "cc_w_ncdeer2": {
+      "id": "cc_w_ncdeer2",
+      "name": "业报",
+      "desc": "每当加工心情消耗8的配方未产出副产品时，所消耗的每1点心情转化为1点业报"
+    }
+  },
+  "placeholders": {
+    "cc.g.bs": {
+      "texts": [
+        "黑钢国际",
+        "黑钢国际干员"
+      ],
+      "termId": "cc_g_bs",
+      "usedBy": [
+        "control_bd_spd_000",
+        "manu_formula_spd&cost_bd_000",
+        "meet_spd&sami_100",
+        "meet_spd&sami_110"
+      ]
+    },
+    "cc.bd_b1": {
+      "texts": [
+        "人间烟火"
+      ],
+      "termId": "cc_bd_b1",
+      "usedBy": [
+        "control_costToBD_000",
+        "control_mp_bd_cost_expand_000",
+        "control_mp_cost&bd_up_000",
+        "control_mp_cost&bd1_000",
+        "hire_spd_bd_n1_n1_200",
+        "manu_bd_to_bd_000",
+        "manu_prod_spd_bd_300",
+        "meet_spd_bd_002",
+        "trade_cost&bd2_000",
+        "trade_cost&bd2_001",
+        "trade_ord_spd_bd_n2_000",
+        "trade_ord_spd_bd_n2_000",
+        "train_spd_bd_000"
+      ]
+    },
+    "cc.bd_a1": {
+      "texts": [
+        "感知信息"
+      ],
+      "termId": "cc_bd_a1",
+      "usedBy": [
+        "control_costToBD_000",
+        "control_mp_cost&bd2_000",
+        "dorm_rec_bd_n1_000",
+        "dorm_rec_bd_n1_100",
+        "hire_spd_bd_n1_000",
+        "hire_spd_bd_n1_000",
+        "manu_prod_spd_bd_n1_000",
+        "manu_prod_spd_bd_n1_000",
+        "trade_ord_spd_bd_n1_000",
+        "trade_ord_spd_bd_n1_000"
+      ]
+    },
+    "cc.bd_mujica": {
+      "texts": [
+        "热情值"
+      ],
+      "termId": "cc_bd_mujica",
+      "usedBy": [
+        "control_dorm_bd_000",
+        "control_hire_spd&bd_000",
+        "control_meeting_spd&bd_000",
+        "control_mp_bd&trade_000",
+        "control_mp_bd&trade_000",
+        "control_prod_bd_spd_000",
+        "control_prod_bd_spd_010"
+      ]
+    },
+    "cc.g.elite": {
+      "texts": [
+        "精英干员"
+      ],
+      "termId": "cc_g_elite",
+      "usedBy": [
+        "control_dorm_rec_tag_001",
+        "hire_spd_tag_000",
+        "trade_ord_spd&tag_010"
+      ]
+    },
+    "cc.g.sui": {
+      "texts": [
+        "岁"
+      ],
+      "termId": "cc_g_sui",
+      "usedBy": [
+        "control_facCostReset_000",
+        "control_mp_cost&bd_up_000",
+        "dorm_rec_all&group_000",
+        "trade_ord_spd&tag_020"
+      ]
+    },
+    "cc.g.ussg": {
+      "texts": [
+        "乌萨斯学生自治团"
+      ],
+      "termId": "cc_g_ussg",
+      "usedBy": [
+        "control_meeting_bd_000",
+        "control_mp_bd_010",
+        "control_mp_cost&faction_020",
+        "manu_formula_spd&bd_001"
+      ]
+    },
+    "cc.g.minos": {
+      "texts": [
+        "米诺斯"
+      ],
+      "termId": "cc_g_minos",
+      "usedBy": [
+        "control_meeting&mp_cost_000",
+        "control_meeting&mp_cost_100"
+      ]
+    },
+    "cc.g.sargon": {
+      "texts": [
+        "萨尔贡"
+      ],
+      "termId": "cc_g_sargon",
+      "usedBy": [
+        "control_meeting&mp_cost_000",
+        "control_meeting&mp_cost_100"
+      ]
+    },
+    "cc.g.abyssal": {
+      "texts": [
+        "深海猎人"
+      ],
+      "termId": "cc_g_abyssal",
+      "usedBy": [
+        "control_mp_aegir1_000",
+        "control_mp_aegir1_000",
+        "control_mp_aegir2_000",
+        "control_mp_aegir2_010",
+        "train_spd_power_down_000"
+      ]
+    },
+    "cc.c.abyssal2_1": {
+      "texts": [
+        "特殊加成"
+      ],
+      "termId": "cc_c_abyssal2_1",
+      "usedBy": [
+        "control_mp_aegir2_000"
+      ]
+    },
+    "cc.c.abyssal2_3": {
+      "texts": [
+        "特殊叠加规则"
+      ],
+      "termId": "cc_c_abyssal2_3",
+      "usedBy": [
+        "control_mp_aegir2_000",
+        "control_mp_aegir2_010"
+      ]
+    },
+    "cc.c.abyssal2_2": {
+      "texts": [
+        "特殊加成"
+      ],
+      "termId": "cc_c_abyssal2_2",
+      "usedBy": [
+        "control_mp_aegir2_010"
+      ]
+    },
+    "cc.g.R6": {
+      "texts": [
+        "彩虹小队"
+      ],
+      "termId": "cc_g_R6",
+      "usedBy": [
+        "control_mp_bd_000",
+        "control_mp_cost&faction_990"
+      ]
+    },
+    "cc.bd_ash": {
+      "texts": [
+        "情报储备"
+      ],
+      "termId": "cc_bd_ash",
+      "usedBy": [
+        "control_mp_bd_000",
+        "hire_spd_blitz_000",
+        "meet_spd_bd_000",
+        "workshop_formula_frost_000"
+      ]
+    },
+    "cc.bd_tachanka": {
+      "texts": [
+        "乌萨斯特饮"
+      ],
+      "termId": "cc_bd_tachanka",
+      "usedBy": [
+        "control_mp_bd_010",
+        "hire_spd_blitz_000",
+        "manu_prod_bd_000",
+        "workshop_formula_frost_000"
+      ]
+    },
+    "cc.c.room2": {
+      "texts": [
+        "其他设施"
+      ],
+      "termId": "cc_c_room2",
+      "usedBy": [
+        "control_mp_bd_cost_expand_000",
+        "control_mp_expand_double_000",
+        "control_mp_lonely_000"
+      ]
+    },
+    "cc.c.sui2_1": {
+      "texts": [
+        "特殊比较规则"
+      ],
+      "termId": "cc_c_sui2_1",
+      "usedBy": [
+        "control_mp_bd_cost_expand_000",
+        "control_mp_expand_double_000"
+      ]
+    },
+    "cc.tag.mh": {
+      "texts": [
+        "怪物猎人小队"
+      ],
+      "termId": "cc_tag_mh",
+      "usedBy": [
+        "control_mp_bd2_000",
+        "control_token_prod_spd2_000",
+        "control_token_tra_spd_000",
+        "dorm_rec_single&tag_000"
+      ]
+    },
+    "cc.bd_felyne": {
+      "texts": [
+        "木天蓼"
+      ],
+      "termId": "cc_bd_felyne",
+      "usedBy": [
+        "control_mp_bd2_000",
+        "control_mp_cost&bd2_010",
+        "manu_prod_spd&limit&bd_000",
+        "trade_ord_spd&limit&bd_000"
+      ]
+    },
+    "cc.g.lgd": {
+      "texts": [
+        "龙门近卫局"
+      ],
+      "termId": "cc_g_lgd",
+      "usedBy": [
+        "control_mp_cost&faction_000",
+        "control_token_prod_spd3_000"
+      ]
+    },
+    "cc.g.karlan": {
+      "texts": [
+        "谢拉格"
+      ],
+      "termId": "cc_g_karlan",
+      "usedBy": [
+        "control_mp_cost&faction_030",
+        "control_tra_limit&spd_000",
+        "control_tra_limit&spd3_000"
+      ]
+    },
+    "cc.g.sp": {
+      "texts": [
+        "异格"
+      ],
+      "termId": "cc_g_sp",
+      "usedBy": [
+        "control_mp_cost&faction_900"
+      ]
+    },
+    "cc.g.lda": {
+      "texts": [
+        "鲤氏侦探事务所"
+      ],
+      "termId": "cc_g_lda",
+      "usedBy": [
+        "control_mp_cost&faction2_000"
+      ]
+    },
+    "cc.c.room1": {
+      "texts": [
+        "部分设施"
+      ],
+      "termId": "cc_c_room1",
+      "usedBy": [
+        "control_mp_lonely_000"
+      ]
+    },
+    "cc.c.skill": {
+      "texts": [
+        "部分技能"
+      ],
+      "termId": "cc_c_skill",
+      "usedBy": [
+        "control_mp_lonely_000"
+      ]
+    },
+    "cc.g.psk": {
+      "texts": [
+        "红松骑士团"
+      ],
+      "termId": "cc_g_psk",
+      "usedBy": [
+        "control_mp_psk_000"
+      ]
+    },
+    "cc.tag.knight": {
+      "texts": [
+        "骑士"
+      ],
+      "termId": "cc_tag_knight",
+      "usedBy": [
+        "control_prod_fraction_000",
+        "train_spd_tag_000",
+        "train_spd_tag_010"
+      ]
+    },
+    "cc.bd_wang_1": {
+      "texts": [
+        "外势"
+      ],
+      "termId": "cc_bd_wang_1",
+      "usedBy": [
+        "control_prod_tra_spd_000",
+        "control_prod_tra_spd_000"
+      ]
+    },
+    "cc.bd_wang_2": {
+      "texts": [
+        "实地"
+      ],
+      "termId": "cc_bd_wang_2",
+      "usedBy": [
+        "control_prod_tra_spd_000",
+        "control_prod_tra_spd_000"
+      ]
+    },
+    "cc.tag.op": {
+      "texts": [
+        "作业平台"
+      ],
+      "termId": "cc_tag_op",
+      "usedBy": [
+        "control_token_prod_spd_000",
+        "manu_token_prod_spd_000",
+        "manu_token_prod_spd_010",
+        "power_count_000",
+        "power_rec_spd_ext&tag_000"
+      ]
+    },
+    "cc.g.glasgow": {
+      "texts": [
+        "格拉斯哥帮"
+      ],
+      "termId": "cc_g_glasgow",
+      "usedBy": [
+        "control_tra_limit&spd_010",
+        "dorm_rec_toone_000",
+        "hire_spd&clue2_260",
+        "trade_ord_spd_par_000",
+        "trade_ord_spd&par_001"
+      ]
+    },
+    "cc.g.siracusa": {
+      "texts": [
+        "叙拉古"
+      ],
+      "termId": "cc_g_siracusa",
+      "usedBy": [
+        "control_tra_limit&spd2_000",
+        "train_spd_tag_040"
+      ]
+    },
+    "cc.bd_B": {
+      "texts": [
+        "无声共鸣"
+      ],
+      "termId": "cc_bd_B",
+      "usedBy": [
+        "dorm_bd_num_000",
+        "dorm_rec_all&bd_000",
+        "hire_spd_bd_n1_n1_300",
+        "trade_ord_spd_bd_000",
+        "trade_ord_spd_bd_010",
+        "trade_ord_spd_bd_n1_000"
+      ]
+    },
+    "cc.tag.dungeon": {
+      "texts": [
+        "莱欧斯小队"
+      ],
+      "termId": "cc_tag_dungeon",
+      "usedBy": [
+        "dorm_rec_all&tag_000"
+      ]
+    },
+    "cc.bd_dungeon": {
+      "texts": [
+        "魔物料理"
+      ],
+      "termId": "cc_bd_dungeon",
+      "usedBy": [
+        "dorm_rec_bd_dungeon_000",
+        "manu_prod_spd_bd_400",
+        "meet_spd_bd_001",
+        "trade_ord_spd_bd_100"
+      ]
+    },
+    "cc.bd_a1_a2": {
+      "texts": [
+        "梦境"
+      ],
+      "termId": "cc_bd_a1_a2",
+      "usedBy": [
+        "dorm_rec_bd_n1_000",
+        "dorm_rec_bd_n1_n2_000"
+      ]
+    },
+    "cc.bd_a1_a3": {
+      "texts": [
+        "小节"
+      ],
+      "termId": "cc_bd_a1_a3",
+      "usedBy": [
+        "dorm_rec_bd_n1_100",
+        "dorm_rec_bd_n1_n3_000"
+      ]
+    },
+    "cc.gvial": {
+      "texts": [
+        "嘉维尔"
+      ],
+      "termId": "cc_gvial",
+      "usedBy": [
+        "dorm_rec_single_P_001"
+      ]
+    },
+    "cc.g.sm": {
+      "texts": [
+        "萨米"
+      ],
+      "termId": "cc_g_sm",
+      "usedBy": [
+        "dorm_rec_single_power_000",
+        "meet_spd&sami_000",
+        "train_spd_power_000"
+      ]
+    },
+    "cc.g.laterano": {
+      "texts": [
+        "拉特兰"
+      ],
+      "termId": "cc_g_laterano",
+      "usedBy": [
+        "dorm_rec_single_power_001",
+        "power_rec_spd_ext&faction_000",
+        "trade_ord_spd_par_001"
+      ]
+    },
+    "cc.tag.mh2": {
+      "texts": [
+        "泡影国狩猎小队"
+      ],
+      "termId": "cc_tag_mh2",
+      "usedBy": [
+        "dorm_rec_single&tag_000",
+        "trade_ord_spd&limit_tag_000"
+      ]
+    },
+    "cc.bd_a1_a1": {
+      "texts": [
+        "记忆碎片"
+      ],
+      "termId": "cc_bd_a1_a1",
+      "usedBy": [
+        "hire_spd_bd_n1_000",
+        "hire_spd_bd_n1_000",
+        "hire_spd_bd_n1_n1_100"
+      ]
+    },
+    "cc.bd_C": {
+      "texts": [
+        "巫术结晶"
+      ],
+      "termId": "cc_bd_C",
+      "usedBy": [
+        "manu_bd_to_bd_000",
+        "manu_prod_spd_bd_200",
+        "manu_prod_spd_bd_201"
+      ]
+    },
+    "cc.bd_malist": {
+      "texts": [
+        "工程机器人"
+      ],
+      "termId": "cc_bd_malist",
+      "usedBy": [
+        "manu_constrLv_000",
+        "manu_prod_spd_bd_100",
+        "manu_prod_spd_bd_110"
+      ]
+    },
+    "cc.g.rh": {
+      "texts": [
+        "莱茵生命"
+      ],
+      "termId": "cc_g_rh",
+      "usedBy": [
+        "manu_formula_spd&cost_bd_100",
+        "power_rec_rhine_000"
+      ]
+    },
+    "cc.bd.costdrop": {
+      "texts": [
+        "心情落差"
+      ],
+      "termId": "cc_bd_costdrop",
+      "usedBy": [
+        "manu_prod_spd_addition&cost_000",
+        "manu_prod_spd_reduce_000"
+      ]
+    },
+    "cc.bd_A": {
+      "texts": [
+        "思维链环"
+      ],
+      "termId": "cc_bd_A",
+      "usedBy": [
+        "manu_prod_spd_bd_000",
+        "manu_prod_spd_bd_010",
+        "manu_prod_spd_bd_n1_000"
+      ]
+    },
+    "cc.m.var1": {
+      "texts": [
+        "回收利用"
+      ],
+      "termId": "cc_m_var1",
+      "usedBy": [
+        "manu_prod_spd_variable3_000"
+      ]
+    },
+    "cc.tag.sees": {
+      "texts": [
+        "S.E.E.S."
+      ],
+      "termId": "cc_tag_sees",
+      "usedBy": [
+        "manu_prod_spd&bd_000"
+      ]
+    },
+    "cc.g.A1": {
+      "texts": [
+        "A1小队"
+      ],
+      "termId": "cc_g_A1",
+      "usedBy": [
+        "manu_prod_spd&fraction_000"
+      ]
+    },
+    "cc.sk.manu2": {
+      "texts": [
+        "莱茵科技类",
+        "莱茵科技类技能"
+      ],
+      "termId": "cc_sk_manu2",
+      "usedBy": [
+        "manu_skill_change_000",
+        "manu_skill_limit_000",
+        "manu_skill_spd1_010"
+      ]
+    },
+    "cc.sk.manu3": {
+      "texts": [
+        "红松骑士团类"
+      ],
+      "termId": "cc_sk_manu3",
+      "usedBy": [
+        "manu_skill_change_000"
+      ]
+    },
+    "cc.sk.manu1": {
+      "texts": [
+        "标准化类技能"
+      ],
+      "termId": "cc_sk_manu1",
+      "usedBy": [
+        "manu_skill_spd1_000"
+      ]
+    },
+    "cc.sk.manu4": {
+      "texts": [
+        "金属工艺类技能"
+      ],
+      "termId": "cc_sk_manu4",
+      "usedBy": [
+        "manu_skill_spd1_020"
+      ]
+    },
+    "cc.tra.closure": {
+      "texts": [
+        "可露希尔特别订单"
+      ],
+      "termId": "cc_tra_closure",
+      "usedBy": [
+        "trade_ord_closure_000"
+      ]
+    },
+    "cc.t.strong2": {
+      "texts": [
+        "特殊叠加规则"
+      ],
+      "termId": "cc_t_strong2",
+      "usedBy": [
+        "trade_ord_limit_count_000"
+      ]
+    },
+    "cc.tag.durin": {
+      "texts": [
+        "杜林族"
+      ],
+      "termId": "cc_tag_durin",
+      "usedBy": [
+        "trade_ord_line_durin_010"
+      ]
+    },
+    "cc.t.flow_gold": {
+      "texts": [
+        "赤金生产线"
+      ],
+      "termId": "cc_t_flow_gold",
+      "usedBy": [
+        "trade_ord_line_durin_010",
+        "trade_ord_line_gold_000",
+        "trade_ord_line_gold_000",
+        "trade_ord_line_gold_010",
+        "trade_ord_line_gold_010",
+        "trade_ord_spd&gold_000",
+        "trade_ord_spd&gold_010",
+        "trade_ord_spd&gold_100"
+      ]
+    },
+    "cc.c.room3": {
+      "texts": [
+        "工作场所"
+      ],
+      "termId": "cc_c_room3",
+      "usedBy": [
+        "trade_ord_par&per_000",
+        "trade_ord_par&per_001"
+      ]
+    },
+    "cc.tra.pepe": {
+      "texts": [
+        "特别独占订单"
+      ],
+      "termId": "cc_tra_pepe",
+      "usedBy": [
+        "trade_ord_pepe_000"
+      ]
+    },
+    "cc.angel": {
+      "texts": [
+        "能天使"
+      ],
+      "termId": "cc_angel",
+      "usedBy": [
+        "trade_ord_spd&multiPar_100"
+      ]
+    },
+    "cc.t.accmuguard1": {
+      "texts": [
+        "武道"
+      ],
+      "termId": "cc_t_accmuguard1",
+      "usedBy": [
+        "train_spd_bd&reduceTime_000",
+        "train_spd_bd&reduceTime_000",
+        "train_spd_bd&reduceTime_000"
+      ]
+    },
+    "cc.g.Defence": {
+      "texts": [
+        "防守方"
+      ],
+      "termId": "cc_g_Defence",
+      "usedBy": [
+        "train_spd_tag_020",
+        "train_spd_tag_1020"
+      ]
+    },
+    "cc.g.Attack": {
+      "texts": [
+        "进攻方"
+      ],
+      "termId": "cc_g_Attack",
+      "usedBy": [
+        "train_spd_tag_030",
+        "train_spd_tag_1030"
+      ]
+    },
+    "cc.w.ncdeer1": {
+      "texts": [
+        "因果"
+      ],
+      "termId": "cc_w_ncdeer1",
+      "usedBy": [
+        "workshop_formula_bonus1_000"
+      ]
+    },
+    "cc.w.ncdeer2": {
+      "texts": [
+        "业报"
+      ],
+      "termId": "cc_w_ncdeer2",
+      "usedBy": [
+        "workshop_formula_bonus2_000"
+      ]
+    }
+  },
+  "tags": {
+    "心情消耗": {
+      "count": 36,
+      "skills": [
+        "control_allCost_condChar_000",
+        "control_dorm_rec_000",
+        "control_dorm_rec_001",
+        "control_dorm_rec_002",
+        "control_dorm_rec_tag_001",
+        "control_dorm_rec2_000",
+        "control_mp_aegir1_000",
+        "control_mp_aegir2_000",
+        "control_mp_aegir2_010",
+        "control_mp_bd_cost_expand_000",
+        "control_mp_cost_000",
+        "control_mp_cost_001",
+        "control_mp_cost_002",
+        "control_mp_cost_003",
+        "control_mp_cost_004",
+        "control_mp_cost_005",
+        "control_mp_cost_006",
+        "control_mp_cost_007",
+        "control_mp_cost_008",
+        "control_mp_cost_009",
+        "control_mp_cost_010",
+        "control_mp_cost_011",
+        "control_mp_cost_012",
+        "control_mp_cost_013",
+        "control_mp_cost_014",
+        "control_mp_cost_double_000",
+        "control_mp_cost_double_001",
+        "control_mp_cost&bd1_000",
+        "control_mp_cost&faction_000",
+        "control_mp_cost&faction_020",
+        "control_mp_cost&faction_030",
+        "control_mp_cost&faction_900",
+        "control_mp_cost&faction_990",
+        "control_mp_cost&faction2_000",
+        "control_mp_expand_double_000",
+        "control_mp_lonely_000"
+      ]
+    },
+    "生产力": {
+      "count": 12,
+      "skills": [
+        "control_bd_spd_000",
+        "control_mp_psk_000",
+        "control_prod_bd_spd_000",
+        "control_prod_bd_spd_010",
+        "control_prod_fraction_000",
+        "control_prod_spd_000",
+        "control_prod_spd_1000",
+        "control_prod_spd_999",
+        "control_prod_tra_spd_000",
+        "control_token_prod_spd_000",
+        "control_token_prod_spd2_000",
+        "control_token_prod_spd3_000"
+      ]
+    },
+    "线索倾向": {
+      "count": 4,
+      "skills": [
+        "control_clue_cost_000",
+        "control_clue_cost_010",
+        "control_clue_cost_011",
+        "control_clue_cost&faction_990"
+      ]
+    },
+    "办公室": {
+      "count": 3,
+      "skills": [
+        "control_hire_spd_000",
+        "control_hire_spd_all_000",
+        "control_hire_spd&bd_000"
+      ]
+    },
+    "线索搜集": {
+      "count": 7,
+      "skills": [
+        "control_meeting_bd_000",
+        "control_meeting&mp_cost_000",
+        "control_meeting&mp_cost_100",
+        "control_meeting&ord_000",
+        "control_meeting&ord_001",
+        "control_upMeetingSpeed_000",
+        "control_upMeetingSpeed_100"
+      ]
+    },
+    "订单效率": {
+      "count": 77,
+      "skills": [
+        "control_mp_bd&trade_000",
+        "control_prod_tra_spd_000",
+        "control_token_tra_spd_000",
+        "control_tra_limit&spd_010",
+        "control_tra_limit&spd2_000",
+        "control_tra_limit&spd3_000",
+        "control_tra_spd_000",
+        "control_tra_spd_010",
+        "control_tra_spd_020",
+        "control_tra_spd_030",
+        "trade_ord_closure_000",
+        "trade_ord_limit_count_000",
+        "trade_ord_limit_diff_000",
+        "trade_ord_line_gold_000",
+        "trade_ord_line_gold_010",
+        "trade_ord_par&per_000",
+        "trade_ord_par&per_001",
+        "trade_ord_spd_000",
+        "trade_ord_spd_001",
+        "trade_ord_spd_010",
+        "trade_ord_spd_011",
+        "trade_ord_spd_020",
+        "trade_ord_spd_021",
+        "trade_ord_spd_022",
+        "trade_ord_spd_1001",
+        "trade_ord_spd_bd_000",
+        "trade_ord_spd_bd_010",
+        "trade_ord_spd_bd_100",
+        "trade_ord_spd_bd_n2_000",
+        "trade_ord_spd_ext_000",
+        "trade_ord_spd_ext_001",
+        "trade_ord_spd_ext_020",
+        "trade_ord_spd_ext_021",
+        "trade_ord_spd_par_000",
+        "trade_ord_spd_par_001",
+        "trade_ord_spd_variable2_000",
+        "trade_ord_spd_variable2_001",
+        "trade_ord_spd_variable3_000",
+        "trade_ord_spd&cost_000",
+        "trade_ord_spd&cost_P_000",
+        "trade_ord_spd&dorm&lv_000",
+        "trade_ord_spd&dorm&lv_010",
+        "trade_ord_spd&formula_000",
+        "trade_ord_spd&gold_000",
+        "trade_ord_spd&gold_010",
+        "trade_ord_spd&gold_100",
+        "trade_ord_spd&limit_000",
+        "trade_ord_spd&limit_001",
+        "trade_ord_spd&limit_010",
+        "trade_ord_spd&limit_020",
+        "trade_ord_spd&limit_021",
+        "trade_ord_spd&limit_022",
+        "trade_ord_spd&limit_030",
+        "trade_ord_spd&limit_031",
+        "trade_ord_spd&limit_032",
+        "trade_ord_spd&limit_033",
+        "trade_ord_spd&limit_034",
+        "trade_ord_spd&limit_035",
+        "trade_ord_spd&limit_036",
+        "trade_ord_spd&limit_100",
+        "trade_ord_spd&limit_101",
+        "trade_ord_spd&limit_tag_000",
+        "trade_ord_spd&limit&bd_000",
+        "trade_ord_spd&meet_000",
+        "trade_ord_spd&meet_010",
+        "trade_ord_spd&multiPar_000",
+        "trade_ord_spd&multiPar_100",
+        "trade_ord_spd&par_000",
+        "trade_ord_spd&par_001",
+        "trade_ord_spd&share_000",
+        "trade_ord_spd&share_001",
+        "trade_ord_spd&share_002",
+        "trade_ord_spd&tag_000",
+        "trade_ord_spd&tag_010",
+        "trade_ord_spd&tag_020",
+        "trade_ord_spd&wt_000",
+        "trade_ord_vodfox_000"
+      ]
+    },
+    "群体恢复": {
+      "count": 40,
+      "skills": [
+        "dorm_hireToRecAll_000",
+        "dorm_hireToRecAll_001",
+        "dorm_hireToRecAll_021",
+        "dorm_powToRecAll_000",
+        "dorm_powToRecAll_010",
+        "dorm_rec_all_000",
+        "dorm_rec_all_010",
+        "dorm_rec_all_011",
+        "dorm_rec_all_012",
+        "dorm_rec_all_013",
+        "dorm_rec_all_014",
+        "dorm_rec_all_017",
+        "dorm_rec_all_020",
+        "dorm_rec_all_021",
+        "dorm_rec_all_022",
+        "dorm_rec_all_023",
+        "dorm_rec_all_024",
+        "dorm_rec_all_025",
+        "dorm_rec_all_026",
+        "dorm_rec_all_027",
+        "dorm_rec_all_028",
+        "dorm_rec_all_029",
+        "dorm_rec_all_999",
+        "dorm_rec_all&bd_000",
+        "dorm_rec_all&group_000",
+        "dorm_rec_all&lv_000",
+        "dorm_rec_all&lv_100",
+        "dorm_rec_all&oneself_000",
+        "dorm_rec_all&oneself_001",
+        "dorm_rec_all&oneself_011",
+        "dorm_rec_all&oneself_012",
+        "dorm_rec_all&oneself_021",
+        "dorm_rec_all&oneself_022",
+        "dorm_rec_all&oneself_042",
+        "dorm_rec_all&profession_000",
+        "dorm_rec_all&tag_000",
+        "dorm_rec_all&tired_000",
+        "dorm_rec_all&unfull_000",
+        "dorm_rec_all&unfull_001",
+        "dorm_rec_bd_n1_n2_000"
+      ]
+    },
+    "特殊恢复": {
+      "count": 14,
+      "skills": [
+        "dorm_powToRecAll_000",
+        "dorm_powToRecAll_010",
+        "dorm_rec_all&lv_100",
+        "dorm_rec_all&tag_000",
+        "dorm_rec_all&tired_000",
+        "dorm_rec_all&tired_100",
+        "dorm_rec_all&unfull_001",
+        "dorm_rec_single_P_000",
+        "dorm_rec_single_P_001",
+        "dorm_rec_single_P_002",
+        "dorm_rec_single_power_000",
+        "dorm_rec_single_power_001",
+        "dorm_rec_single&tag_000",
+        "dorm_rec_toone_000"
+      ]
+    },
+    "自身恢复": {
+      "count": 27,
+      "skills": [
+        "dorm_rec_all&oneself_000",
+        "dorm_rec_all&oneself_001",
+        "dorm_rec_all&oneself_010",
+        "dorm_rec_all&oneself_012",
+        "dorm_rec_all&oneself_021",
+        "dorm_rec_all&oneself_022",
+        "dorm_rec_all&oneself_042",
+        "dorm_rec_oneself_000",
+        "dorm_rec_oneself_001",
+        "dorm_rec_oneself_002",
+        "dorm_rec_oneself_010",
+        "dorm_rec_oneself_011",
+        "dorm_rec_oneself_020",
+        "dorm_rec_oneself_030",
+        "dorm_rec_oneself_040",
+        "dorm_rec_oneself2_000",
+        "dorm_rec_oneself2_001",
+        "dorm_rec_single&oneself_000",
+        "dorm_rec_single&oneself_001",
+        "dorm_rec_single&oneself_010",
+        "dorm_rec_single&oneself_011",
+        "dorm_rec_single&oneself_012",
+        "dorm_rec_single&oneself_020",
+        "dorm_rec_single&oneself_021",
+        "dorm_rec_single&oneself_030",
+        "dorm_rec_single&oneself_040",
+        "dorm_recExcludeOther_000"
+      ]
+    },
+    "单体恢复": {
+      "count": 26,
+      "skills": [
+        "dorm_rec_bd_n1_n3_000",
+        "dorm_rec_single_000",
+        "dorm_rec_single_001",
+        "dorm_rec_single_010",
+        "dorm_rec_single_020",
+        "dorm_rec_single_030",
+        "dorm_rec_single_031",
+        "dorm_rec_single_032",
+        "dorm_rec_single_033",
+        "dorm_rec_single_1010",
+        "dorm_rec_single_P_000",
+        "dorm_rec_single_P_001",
+        "dorm_rec_single_P_002",
+        "dorm_rec_single_power_000",
+        "dorm_rec_single_power_001",
+        "dorm_rec_single_power_100",
+        "dorm_rec_single&oneself_000",
+        "dorm_rec_single&oneself_001",
+        "dorm_rec_single&oneself_010",
+        "dorm_rec_single&oneself_011",
+        "dorm_rec_single&oneself_012",
+        "dorm_rec_single&oneself_020",
+        "dorm_rec_single&oneself_021",
+        "dorm_rec_single&oneself_030",
+        "dorm_rec_single&oneself_040",
+        "dorm_rec_single&tag_000"
+      ]
+    },
+    "联络速度": {
+      "count": 42,
+      "skills": [
+        "hire_spd_000",
+        "hire_spd_001",
+        "hire_spd_010",
+        "hire_spd_011",
+        "hire_spd_012",
+        "hire_spd_013",
+        "hire_spd_020",
+        "hire_spd_030",
+        "hire_spd_031",
+        "hire_spd_032",
+        "hire_spd_bd_n1_n1_100",
+        "hire_spd_blitz_000",
+        "hire_spd_cost_010",
+        "hire_spd_cost_100",
+        "hire_spd_cost_101",
+        "hire_spd_cost_110",
+        "hire_spd_cost_111",
+        "hire_spd_cost_112",
+        "hire_spd_cost_120",
+        "hire_spd_cost_121",
+        "hire_spd_cost_200",
+        "hire_spd_cost_210",
+        "hire_spd_cost_220",
+        "hire_spd_cost_230",
+        "hire_spd_cost_999",
+        "hire_spd_cost&char_000",
+        "hire_spd_cost&char_001",
+        "hire_spd_cost&clue_000",
+        "hire_spd_cost&clue_001",
+        "hire_spd_cost&extra_000",
+        "hire_spd_dorm&lv_000",
+        "hire_spd_dorm&lv_010",
+        "hire_spd_tag_000",
+        "hire_spd&clue_010",
+        "hire_spd&clue_100",
+        "hire_spd&clue_101",
+        "hire_spd&clue_110",
+        "hire_spd&clue_120",
+        "hire_spd&clue_121",
+        "hire_spd&clue2_230",
+        "hire_spd&clue2_250",
+        "hire_spd&clue2_260"
+      ]
+    },
+    "特殊加成": {
+      "count": 10,
+      "skills": [
+        "hire_spd_bd_n1_n1_100",
+        "hire_spd_bd_n1_n1_200",
+        "hire_spd_bd_n1_n1_300",
+        "hire_spd_cost&clue_000",
+        "hire_spd_cost&extra_000",
+        "hire_spd&clue_100",
+        "hire_spd&clue_101",
+        "hire_spd&clue_110",
+        "hire_spd&clue_120",
+        "hire_spd&clue_121"
+      ]
+    },
+    "仓库容量": {
+      "count": 24,
+      "skills": [
+        "manu_formula_limit_0000",
+        "manu_formula_limit_010",
+        "manu_formula_limit_020",
+        "manu_prod_bd_000",
+        "manu_prod_limit&cost_000",
+        "manu_prod_limit&cost_0000",
+        "manu_prod_limit&cost_001",
+        "manu_prod_limit&cost_002",
+        "manu_prod_limit&cost_003",
+        "manu_prod_limit&cost_010",
+        "manu_prod_limit&cost_011",
+        "manu_prod_limit&cost_012",
+        "manu_prod_limit&cost_020",
+        "manu_prod_limit&cost_021",
+        "manu_prod_limit&cost_1020",
+        "manu_prod_spd&limit_000",
+        "manu_prod_spd&limit_001",
+        "manu_prod_spd&limit&bd_000",
+        "manu_prod_spd&limit&cost_000",
+        "manu_prod_spd&limit&cost_001",
+        "manu_prod_spd&limit&cost_020",
+        "manu_prod_spd&limit&cost_200",
+        "manu_prod_spd&manu_000",
+        "manu_prod_spd&manu_100"
+      ]
+    },
+    "作战记录": {
+      "count": 14,
+      "skills": [
+        "manu_formula_spd_000",
+        "manu_formula_spd_010",
+        "manu_formula_spd_011",
+        "manu_formula_spd_020",
+        "manu_formula_spd_022",
+        "manu_formula_spd_030",
+        "manu_formula_spd_031",
+        "manu_formula_spd_P_000",
+        "manu_formula_spd&bd_000",
+        "manu_formula_spd&bd_001",
+        "manu_formula_spd&limit&cost_000",
+        "manu_formula_spd&limit&cost_010",
+        "manu_formula_spd&limit&cost_100",
+        "manu_prod_spd_double_100"
+      ]
+    },
+    "贵金属": {
+      "count": 14,
+      "skills": [
+        "manu_formula_spd_100",
+        "manu_formula_spd_101",
+        "manu_formula_spd_102",
+        "manu_formula_spd_110",
+        "manu_formula_spd&cost_000",
+        "manu_formula_spd&cost_001",
+        "manu_formula_spd&cost_bd_000",
+        "manu_formula_spd&cost_bd_100",
+        "manu_formula_spd&dorm&lv_000",
+        "manu_prod_spd_double_000",
+        "manu_prod_spd&trade_000",
+        "manu_prod_spd&trade_1000",
+        "manu_token_prod_spd_000",
+        "manu_token_prod_spd_010"
+      ]
+    },
+    "源石": {
+      "count": 7,
+      "skills": [
+        "manu_formula_spd_200",
+        "manu_formula_spd_201",
+        "manu_formula_spd_210",
+        "manu_formula_spd_211",
+        "manu_formula_spd_212",
+        "manu_formula_spd_213",
+        "manu_formula_spd_214"
+      ]
+    },
+    "通用生产": {
+      "count": 48,
+      "skills": [
+        "manu_prod_bd_000",
+        "manu_prod_cost_min_001",
+        "manu_prod_spd_000",
+        "manu_prod_spd_001",
+        "manu_prod_spd_002",
+        "manu_prod_spd_003",
+        "manu_prod_spd_004",
+        "manu_prod_spd_010",
+        "manu_prod_spd_011",
+        "manu_prod_spd_012",
+        "manu_prod_spd_014",
+        "manu_prod_spd_020",
+        "manu_prod_spd_021",
+        "manu_prod_spd_1000",
+        "manu_prod_spd_addition_030",
+        "manu_prod_spd_addition_031",
+        "manu_prod_spd_addition_040",
+        "manu_prod_spd_addition_041",
+        "manu_prod_spd_addition_100",
+        "manu_prod_spd_addition&cost_000",
+        "manu_prod_spd_bd_000",
+        "manu_prod_spd_bd_010",
+        "manu_prod_spd_bd_100",
+        "manu_prod_spd_bd_110",
+        "manu_prod_spd_bd_200",
+        "manu_prod_spd_bd_201",
+        "manu_prod_spd_bd_300",
+        "manu_prod_spd_bd_400",
+        "manu_prod_spd_reduce_000",
+        "manu_prod_spd_train&lv_000",
+        "manu_prod_spd_variable_000",
+        "manu_prod_spd_variable2_000",
+        "manu_prod_spd_variable3_000",
+        "manu_prod_spd&bd_000",
+        "manu_prod_spd&limit_000",
+        "manu_prod_spd&limit_001",
+        "manu_prod_spd&limit&bd_000",
+        "manu_prod_spd&limit&cost_010",
+        "manu_prod_spd&limit&cost_011",
+        "manu_prod_spd&limit&cost_100",
+        "manu_prod_spd&limit&cost_101",
+        "manu_prod_spd&limit&cost_110",
+        "manu_prod_spd&limit&cost_200",
+        "manu_prod_spd&limit&cost_300",
+        "manu_prod_spd&manu_100",
+        "manu_prod_spd&power_000",
+        "manu_prod_spd&power_010",
+        "manu_prod_spd&power_020"
+      ]
+    },
+    "线索1": {
+      "count": 3,
+      "skills": [
+        "meet_flag_010",
+        "meet_spd&condChar_mustget_000",
+        "meet_spd&team_010"
+      ]
+    },
+    "线索6": {
+      "count": 3,
+      "skills": [
+        "meet_flag_040",
+        "meet_spd&team_040",
+        "meet_spd&team_041"
+      ]
+    },
+    "线索4": {
+      "count": 3,
+      "skills": [
+        "meet_flag_050",
+        "meet_spd&team_050",
+        "meet_team_050"
+      ]
+    },
+    "线索7": {
+      "count": 4,
+      "skills": [
+        "meet_flag_060",
+        "meet_spd&condChar_mustget_100",
+        "meet_spd&team_060",
+        "meet_team_060"
+      ]
+    },
+    "线索5": {
+      "count": 4,
+      "skills": [
+        "meet_flag_070",
+        "meet_spd&team_070",
+        "meet_spd&team_071",
+        "meet_team_070"
+      ]
+    },
+    "无特别加成": {
+      "count": 54,
+      "skills": [
+        "meet_spd_000",
+        "meet_spd_0020",
+        "meet_spd_010",
+        "meet_spd_011",
+        "meet_spd_020",
+        "meet_spd_021",
+        "meet_spd_022",
+        "meet_spd_023",
+        "meet_spd_030",
+        "meet_spd_031",
+        "meet_spd_032",
+        "meet_spd_1000",
+        "meet_spd_1010",
+        "meet_spd_1020",
+        "meet_spd_bd_000",
+        "meet_spd_bd_001",
+        "meet_spd_bd_002",
+        "meet_spd_condChar_000",
+        "meet_spd_ext&P_000",
+        "meet_spd_hast_000",
+        "meet_spd_notOwned_010",
+        "meet_spd_notOwned_P_000",
+        "meet_spd&bd_000",
+        "meet_spd&bd_010",
+        "meet_spd&bd_100",
+        "meet_spd&bd_999",
+        "meet_spd&clue_000",
+        "meet_spd&cost_000",
+        "meet_spd&cost_100",
+        "meet_spd&cost_condChar_000",
+        "meet_spd&cost_condChar_001",
+        "meet_spd&cost_condChar_002",
+        "meet_spd&cost_condChar_011",
+        "meet_spd&cost_condChar_020",
+        "meet_spd&cost_condChar_021",
+        "meet_spd&exchange_000",
+        "meet_spd&exchange_001",
+        "meet_spd&exchange_999",
+        "meet_spd&sami_000",
+        "meet_spd&sami_100",
+        "meet_spd&sami_110",
+        "meet_spd&team_000",
+        "meet_spd&team_010",
+        "meet_spd&team_020",
+        "meet_spd&team_030",
+        "meet_spd&team_031",
+        "meet_spd&team_040",
+        "meet_spd&team_041",
+        "meet_spd&team_050",
+        "meet_spd&team_060",
+        "meet_spd&team_070",
+        "meet_spd&team_071",
+        "meet_spd&team_100",
+        "meet_spd&team_110"
+      ]
+    },
+    "未拥有加成": {
+      "count": 10,
+      "skills": [
+        "meet_spd_notOwned_000",
+        "meet_spd_notOwned_001",
+        "meet_spd_notOwned_002",
+        "meet_spd_notOwned_003",
+        "meet_spd_notOwned_004",
+        "meet_spd_notOwned_010",
+        "meet_spd_notOwned_P_000",
+        "meet_spd_notOwned&exchange_000",
+        "meet_spd&bd_010",
+        "meet_spd&bd_999"
+      ]
+    },
+    "线索3": {
+      "count": 4,
+      "skills": [
+        "meet_spd&sami_100",
+        "meet_spd&sami_110",
+        "meet_spd&team_030",
+        "meet_spd&team_031"
+      ]
+    },
+    "线索2": {
+      "count": 2,
+      "skills": [
+        "meet_spd&team_020",
+        "meet_team_020"
+      ]
+    },
+    "特殊订单": {
+      "count": 8,
+      "skills": [
+        "trade_ord_against_000",
+        "trade_ord_against_010",
+        "trade_ord_closure_000",
+        "trade_ord_law_000",
+        "trade_ord_long_000",
+        "trade_ord_long_010",
+        "trade_ord_pepe_000",
+        "trade_ord_spd&wt_000"
+      ]
+    },
+    "订单上限": {
+      "count": 16,
+      "skills": [
+        "trade_ord_limit&cost_000",
+        "trade_ord_limit&cost_P_000",
+        "trade_ord_limit&cost_P_001",
+        "trade_ord_limit&cost_P_020",
+        "trade_ord_spd&limit_000",
+        "trade_ord_spd&limit_001",
+        "trade_ord_spd&limit_010",
+        "trade_ord_spd&limit_020",
+        "trade_ord_spd&limit_021",
+        "trade_ord_spd&limit_022",
+        "trade_ord_spd&limit_031",
+        "trade_ord_spd&limit_033",
+        "trade_ord_spd&limit_035",
+        "trade_ord_spd&limit_036",
+        "trade_ord_spd&limit_tag_000",
+        "trade_ord_spd&limit&bd_000"
+      ]
+    },
+    "高品质": {
+      "count": 8,
+      "skills": [
+        "trade_ord_wt&cost_000",
+        "trade_ord_wt&cost_001",
+        "trade_ord_wt&cost_002",
+        "trade_ord_wt&cost_003",
+        "trade_ord_wt&cost_004",
+        "trade_ord_wt&cost_010",
+        "trade_ord_wt&cost_011",
+        "trade_ord_wt&cost_012"
+      ]
+    },
+    "狙击": {
+      "count": 16,
+      "skills": [
+        "train_cost&profession_140",
+        "train_cost&profession_340",
+        "train_spd_doubleProf_000",
+        "train_spd_doubleProf3_000",
+        "train_spd_doubleProf3_100",
+        "train_spd_doubleProf3_999",
+        "train_spd&profession_040",
+        "train_spd&profession_041",
+        "train_spd&profession_140",
+        "train_spd&profession2_040",
+        "train_spd&profession2_240",
+        "train_spd&profession2_440",
+        "train_spd&profession2_630",
+        "train_spd&profession2_640",
+        "train_spd&profession3_140",
+        "train_spd&profession3_170"
+      ]
+    },
+    "近卫": {
+      "count": 24,
+      "skills": [
+        "train_cost&profession_320",
+        "train_spd_bd&reduceTime_000",
+        "train_spd_doubleProf_000",
+        "train_spd_doubleProf_201",
+        "train_spd_doubleProf_300",
+        "train_spd_doubleProf_301",
+        "train_spd_doubleProf_310",
+        "train_spd_doubleProf3_000",
+        "train_spd_doubleProf3_100",
+        "train_spd&profession_020",
+        "train_spd&profession_021",
+        "train_spd&profession_1020",
+        "train_spd&profession_120",
+        "train_spd&profession2_020",
+        "train_spd&profession2_120",
+        "train_spd&profession2_220",
+        "train_spd&profession2_320",
+        "train_spd&profession2_321",
+        "train_spd&profession2_322",
+        "train_spd&profession2_620",
+        "train_spd&profession3_150",
+        "train_spd&profession3_151",
+        "train_spd&profession3_160",
+        "train_spd&profession3_161"
+      ]
+    },
+    "术师": {
+      "count": 15,
+      "skills": [
+        "train_cost&profession_350",
+        "train_spd_doubleProf_100",
+        "train_spd_doubleProf_110",
+        "train_spd_doubleProf_200",
+        "train_spd_doubleProf_300",
+        "train_spd_doubleProf_301",
+        "train_spd_doubleProf_310",
+        "train_spd&profession_050",
+        "train_spd&profession_051",
+        "train_spd&profession_150",
+        "train_spd&profession2_050",
+        "train_spd&profession2_052",
+        "train_spd&profession2_150",
+        "train_spd&profession2_250",
+        "train_spd&profession2_650"
+      ]
+    },
+    "辅助": {
+      "count": 10,
+      "skills": [
+        "train_cost&profession_360",
+        "train_spd_doubleProf_200",
+        "train_spd_doubleProf_201",
+        "train_spd&profession_060",
+        "train_spd&profession_061",
+        "train_spd&profession_160",
+        "train_spd&profession2_060",
+        "train_spd&profession2_660",
+        "train_spd&profession3_190",
+        "train_spd&profession3_191"
+      ]
+    },
+    "特种": {
+      "count": 10,
+      "skills": [
+        "train_cost&profession_380",
+        "train_spd_doubleProf2_000",
+        "train_spd_doubleProf2_001",
+        "train_spd&profession_080",
+        "train_spd&profession_081",
+        "train_spd&profession_1081",
+        "train_spd&profession_180",
+        "train_spd&profession2_080",
+        "train_spd&profession2_180",
+        "train_spd&profession2_680"
+      ]
+    },
+    "全能": {
+      "count": 13,
+      "skills": [
+        "train_spd_000",
+        "train_spd_0000",
+        "train_spd_001",
+        "train_spd_002",
+        "train_spd_power_000",
+        "train_spd_power_down_000",
+        "train_spd_tag_000",
+        "train_spd_tag_010",
+        "train_spd_tag_020",
+        "train_spd_tag_030",
+        "train_spd_tag_040",
+        "train_spd_tag_1020",
+        "train_spd_tag_1030"
+      ]
+    },
+    "医疗": {
+      "count": 12,
+      "skills": [
+        "train_spd_doubleProf_100",
+        "train_spd_doubleProf_110",
+        "train_spd_doubleProf3_999",
+        "train_spd&profession_070",
+        "train_spd&profession_071",
+        "train_spd&profession_170",
+        "train_spd&profession2_270",
+        "train_spd&profession3_180",
+        "train_spd&profession3_181",
+        "train_spd&profession3_182",
+        "train_spd&profession3_183",
+        "train_spd&profession3_184"
+      ]
+    },
+    "先锋": {
+      "count": 9,
+      "skills": [
+        "train_spd_doubleProf2_000",
+        "train_spd_doubleProf2_001",
+        "train_spd&profession_010",
+        "train_spd&profession_011",
+        "train_spd&profession_110",
+        "train_spd&profession2_010",
+        "train_spd&profession2_110",
+        "train_spd&profession2_111",
+        "train_spd&profession2_112"
+      ]
+    },
+    "减半": {
+      "count": 2,
+      "skills": [
+        "train_spd_reduceTime_000",
+        "train_spd_reduceTime_001"
+      ]
+    },
+    "重装": {
+      "count": 8,
+      "skills": [
+        "train_spd&profession_030",
+        "train_spd&profession_031",
+        "train_spd&profession_130",
+        "train_spd&profession2_030",
+        "train_spd&profession2_130",
+        "train_spd&profession2_230",
+        "train_spd&profession3_130",
+        "train_spd&profession3_131"
+      ]
+    },
+    "精英材料": {
+      "count": 38,
+      "skills": [
+        "workshop_formula_bonus1_000",
+        "workshop_formula_bonus2_000",
+        "workshop_formula_cost2_000",
+        "workshop_formula_cost2_110",
+        "workshop_formula_cost2_111",
+        "workshop_formula_device_000",
+        "workshop_formula_device_020",
+        "workshop_formula_device_030",
+        "workshop_formula_device_050",
+        "workshop_formula_device_060",
+        "workshop_formula_device_070",
+        "workshop_formula_dorm_000",
+        "workshop_formula_dorm_001",
+        "workshop_formula_dorm_002",
+        "workshop_formula_probability_100",
+        "workshop_formula_probability_101",
+        "workshop_formula_probability_102",
+        "workshop_formula_probability_110",
+        "workshop_formula_probability_111",
+        "workshop_formula_probability_1110",
+        "workshop_formula_probability_112",
+        "workshop_formula_probability_113",
+        "workshop_formula_probability_114",
+        "workshop_formula_probability_115",
+        "workshop_formula_probability_116",
+        "workshop_formula_probability_117",
+        "workshop_formula_probability_118",
+        "workshop_formula_probability_119",
+        "workshop_formula_probability_120",
+        "workshop_formula_probability_121",
+        "workshop_formula_probability_122",
+        "workshop_formula_probability_123",
+        "workshop_formula_probability_124",
+        "workshop_formula_probability_126",
+        "workshop_formula_probability_128",
+        "workshop_formula_probability_129",
+        "workshop_formula_probability_139",
+        "workshop_formula_probability_160"
+      ]
+    },
+    "任意材料": {
+      "count": 18,
+      "skills": [
+        "workshop_formula_frost_000",
+        "workshop_proc_cost_000",
+        "workshop_proc_probability_000",
+        "workshop_proc_probability_010",
+        "workshop_proc_probability_011",
+        "workshop_proc_probability_012",
+        "workshop_proc_probability_013",
+        "workshop_proc_probability_020",
+        "workshop_proc_probability_021",
+        "workshop_proc_probability_030",
+        "workshop_proc_probability_031",
+        "workshop_proc_probability_032",
+        "workshop_proc_probability_033",
+        "workshop_proc_probability_040",
+        "workshop_proc_probability_041",
+        "workshop_proc_probability_050",
+        "workshop_proc_probability&ext_000",
+        "workshop_proc_probability&ext_001"
+      ]
+    },
+    "技巧概要": {
+      "count": 8,
+      "skills": [
+        "workshop_formula_probability_000",
+        "workshop_formula_probability_010",
+        "workshop_formula_probability_011",
+        "workshop_formula_probability_020",
+        "workshop_formula_probability_021",
+        "workshop_formula_probability_030",
+        "workshop_formula_probability_031",
+        "workshop_formula_probability_032"
+      ]
+    },
+    "基建材料": {
+      "count": 4,
+      "skills": [
+        "workshop_formula_probability_200",
+        "workshop_formula_probability_210",
+        "workshop_formula_probability_220",
+        "workshop_formula_probability_221"
+      ]
+    },
+    "芯片": {
+      "count": 3,
+      "skills": [
+        "workshop_formula_probability_300",
+        "workshop_formula_probability_301",
+        "workshop_formula_probability_310"
+      ]
+    }
+  },
+  "rooms": {
+    "control": {
+      "name": "控制中枢",
+      "count": 90
+    },
+    "dorm": {
+      "name": "宿舍",
+      "count": 86
+    },
+    "hire": {
+      "name": "办公室",
+      "count": 45
+    },
+    "manu": {
+      "name": "制造站",
+      "count": 113
+    },
+    "meet": {
+      "name": "会客室",
+      "count": 73
+    },
+    "power": {
+      "name": "发电站",
+      "count": 41
+    },
+    "trade": {
+      "name": "贸易站",
+      "count": 94
+    },
+    "train": {
+      "name": "训练室",
+      "count": 108
+    },
+    "workshop": {
+      "name": "加工站",
+      "count": 105
+    }
+  }
+}
