@@ -25,3 +25,6 @@ Desktop.ini
 
 # ZCode local
 .zcode/
+
+# Scratch
+tmp/

@@ -30,7 +30,7 @@
 ## 语料边界
 
 - `docs/**/*.md` 是知识库正文，适合进入 RAG 索引；各模块 `README.md`（`type: index`）只作职责与分区导航入口，不承载知识正文。
-- `docs/2-干员技能/` 例外：为 [RIIC-Web](https://github.com/KnightCodeSquareMatrix/RIIC-Web) 数据派生的只读快照，请勿手改，更新走上游整体替换；全量真源与清洗过程见 `meta/mirror/RIIC-Web/`。
+- `docs/2-干员技能/` 例外：根目录快照为 [RIIC-Web](https://github.com/KnightCodeSquareMatrix/RIIC-Web) 数据派生的只读产物，请勿手改，更新走上游整体替换（`释义/` 为人工维护区，歧义消歧两页已迁 `docs/3-组合库/歧义/`）；全量真源与清洗过程见 `meta/mirror/RIIC-Web/`。
 - 维护过程（同步记录、变更纪事、已知问题、进度、待补清单、本地路径）只登记在 `meta/`，不写入 `docs/` 正文。
 - `meta/mirror/` 是外部仓库只读镜像（ArknightsInfraCalc 求解器规范，2026-09-08 自 `docs/1-基建产出基准/` 迁入；RIIC-Web 技能数据真源＋纯文本清洗版），不入 RAG。
 - `meta/templates/` 是写作模板，不应作为玩家知识正文直接入库。

@@ -16,11 +16,11 @@
 //           仅当名字在同一分片内对应多个技能 id 时加 （`id`） 括注
 //           提升版口径写 `精英 N 提升，替换「前一名」`
 //   名册  = `## ☆N（x 名）` 星节 + 名字码点序；`- 名 | ☆N | 职业 | 设施 | 组`
-//   类别  = 术语按 desc 前缀分六节；干员组节内码点序
+//   类别  = 术语按 desc 前缀分六节；干员组节内码点序；term-rosters.json 受管名录随附（异格）
 //   等价组= 描述逐字相同分组；设施节内组名码点序；持有者星级降序+名字序，(精0/精1/精2/Lv.30)
 //   歧义  = 名册内子串对，按设施是否重叠标注判定口径
 
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 
 const CLEAN = join(process.cwd(), 'meta/mirror/RIIC-Web/clean');
@@ -30,6 +30,16 @@ mkdirSync(OUT, { recursive: true });
 const skills = JSON.parse(readFileSync(join(CLEAN, 'building-skill-catalog.json'), 'utf8'));
 const operators = JSON.parse(readFileSync(join(CLEAN, 'operator-catalog.json'), 'utf8'));
 const terms = JSON.parse(readFileSync(join(CLEAN, 'term-catalog.json'), 'utf8'));
+
+// 受管名录增补（meta/annotations/term-rosters.json）：官方术语只给定义不给成员枚举的类别
+// （如「异格：包含所有异格干员」），用外部核对名录补齐；真源 meta/mirror/ 不动。
+const ROSTERS_PATH = join(process.cwd(), 'meta/annotations/term-rosters.json');
+const rosters = existsSync(ROSTERS_PATH) ? JSON.parse(readFileSync(ROSTERS_PATH, 'utf8')) : {};
+const opStars = new Map(operators.map((op) => [op.name, op.rarity]));
+for (const [term, r] of Object.entries(rosters)) {
+  const unknown = r.members.filter((m) => !opStars.has(m));
+  if (unknown.length) throw new Error(`term-rosters.json「${term}」成员不在干员目录，需先核对：${unknown.join('、')}`);
+}
 
 const ROOM_FILE = { control: '技能-控制中枢.md', manu: '技能-制造站.md', trade: '技能-贸易站.md', dorm: '技能-宿舍.md', meet: '技能-会客室.md', hire: '技能-办公室.md', power: '技能-发电站.md', train: '技能-训练室.md', workshop: '技能-加工站.md' };
 const ROOM_LABEL = { control: '控制中枢', manu: '制造站', trade: '贸易站', dorm: '宿舍', meet: '会客室', hire: '办公室', power: '发电站', train: '训练室', workshop: '加工站' };
@@ -107,13 +117,18 @@ for (const rk of ROOM_ORDER) {
     const m = t.desc.match(/包含以下干员\s*(.+)/);
     if (m) groupMembers.set(t.name, new Set(m[1].split('、').map((x) => x.trim())));
   }
+  // 受管名录（异格）同样计入所属组——有基建技能引用该类别（「异格者」→ 术语「异格」）
+  for (const [name, r] of Object.entries(rosters)) {
+    if (!groupMembers.has(name)) groupMembers.set(name, new Set());
+    for (const m of r.members) groupMembers.get(name).add(m);
+  }
   let out = `<!-- 本文件由 scripts/render-skill-snapshot.mjs 从 clean 数据全量生成，请勿手改。 -->
 
 # 干员名册
 
 全部 **${operators.length} 名**干员。这份名单是**边界闭包**：不在表内的名字一律回答「不知道是谁」，不要凭印象补。
 
-字段：\`标准名 | 星级 | 职业 | 有基建技能的设施 | 所属组\`。「所属组」取自官方术语表（见 \`类别.md\`），只列基建技能会引用到的组；为空表示没有基建技能引用其归属。
+字段：\`标准名 | 星级 | 职业 | 有基建技能的设施 | 所属组\`。「所属组」取自官方术语表（见 \`类别.md\`）及受管名录增补（异格，见 \`类别.md\` 名录节），只列基建技能会引用到的组；为空表示没有基建技能引用其归属。
 `;
   for (let star = 6; star >= 1; star--) {
     const ops = operators.filter((op) => op.rarity === star).sort((a, b) => (a.name < b.name ? -1 : 1));
@@ -144,7 +159,7 @@ for (const rk of ROOM_ORDER) {
   }
   // 全局资源 (N) = 提供者干员数（自明口径；存量外势(3)/实地(2)/工程机器人(1) 数字无数据可复现，属上游私有口径）
 
-  let out = `<!-- 本文件由 scripts/render-skill-snapshot.mjs 从 clean 数据全量生成，请勿手改。 -->
+  let out = `<!-- 本文件由 scripts/render-skill-snapshot.mjs 从 clean 数据与受管名录增补全量生成，请勿手改。 -->
 
 # 官方术语与类别
 
@@ -182,7 +197,17 @@ for (const rk of ROOM_ORDER) {
     const ms = t.desc.replace(/^包含以下设施\s*/, '').split('、').map((x) => x.trim());
     return `- **${t.name}**（${ms.length}）：${ms.join('、')}\n`;
   });
-  simple('规则说明', '规则说明', (t) => `- **${t.name}**：${t.desc}\n`);
+  // 规则说明里的类别术语若有受管名录（异格），官方定义后随附具体成员，保持可枚举
+  simple('规则说明', '规则说明', (t) => {
+    const r = rosters[t.name];
+    if (!r) return `- **${t.name}**：${t.desc}\n`;
+    const byStar = new Map();
+    for (const m of [...r.members].sort((a, b) => opStars.get(b) - opStars.get(a) || (a < b ? -1 : 1)))
+      (byStar.get(opStars.get(m)) ?? byStar.set(opStars.get(m), []).get(opStars.get(m))).push(m);
+    let out = `- **${t.name}**：${t.desc}——具体名录（共 ${r.members.length} 名，${r.asOf} 核对，整理自 ${r.source}）：\n`;
+    for (const [star, ms] of byStar) out += `  ☆${star}（${ms.length}）：${ms.join('、')}\n`;
+    return out;
+  });
   writeFileSync(join(OUT, '类别.md'), out);
   console.log(`类别.md: ${Object.values(bySec).flat().length} 条 = 干员组${bySec.干员组.length}/全局资源${bySec.全局资源.length}/技能组${bySec.技能组.length}/技能持有${bySec.技能持有.length}/设施组${bySec.设施组.length}/规则说明${bySec.规则说明.length}`);
 }
