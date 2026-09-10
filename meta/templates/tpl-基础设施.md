@@ -1,9 +1,8 @@
 ---
-tags: [mechanics, <facility>]
-domain: <trade | manufacture | control | power | global>
-prts_ref: <PRTS 页面 URL>
-source: [prts, knightcode]
-last_updated: <日期>
+type: mechanism
+status: draft
+source: [<来源标识或 PRTS 页面 URL>]
+updated: <YYYY-MM-DD>
 ---
 
 # <机制名>

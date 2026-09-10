@@ -1,13 +1,14 @@
 ---
-tags: [system, <facility>]
+type: combination
+status: draft
+source: [公孙长乐]
+updated: <YYYY-MM-DD>
 system_id: <base_systems.json id>
-
 operators: [<核心干员列表>]
 exclusive_with: [<互斥体系>]
 coexists_with: [<共存体系>]
 shortcut_id: <gsl_xxx>
-source: 公孙长乐
-last_reviewed: <日期>
+related_systems: [<相关体系>]
 ---
 
 # <体系名>

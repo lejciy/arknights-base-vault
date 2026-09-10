@@ -1,8 +1,8 @@
 ---
-tags: [mechanics, global]
-domain: global
-source: knightcode
-last_updated: 2026-09-09
+type: mechanism
+status: draft
+source: [knightcode]
+updated: 2026-09-09
 ---
 
 # Buff 叠加模型
