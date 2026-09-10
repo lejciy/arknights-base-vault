@@ -51,10 +51,15 @@ const newSkills = [];
 const descChanged = [];
 const caliberChanged = [];
 for (const o of ost) {
+  // D16 后分片无 id 括注：同名多槽位按「渲染顺序 = 槽位 index 序」逐条消费，
+  // 避免同名提升链的第二槽位错配到第一条 MD 行。
+  const queues = new Map(); // `${file}|${skill}` -> 待消费 bullet 队列
   for (const s of o.skills) {
     const f = ROOM[s.id.split('_')[0]];
     const mo = md.get(o.name);
-    const exist = mo?.rooms[f]?.find((x) => x.id === s.id || (!x.id && x.skill === s.name));
+    const key = `${f}|${s.name}`;
+    if (!queues.has(key)) queues.set(key, [...(mo?.rooms[f] ?? [])].filter((x) => x.id === s.id || (!x.id && x.skill === s.name)));
+    const exist = queues.get(key).shift();
     if (!exist) {
       newSkills.push({ op: o.name, file: f, s });
       continue;
@@ -74,7 +79,7 @@ for (const o of ost)
     jsonByShard[f].ops.add(o.name);
   }
 
-console.log('bullet 解析:', bullets, '/ 921 槽位；名册', rosterNames.size, '；类别声明', catCount, '实抓', catNames.size);
+console.log('bullet 解析:', bullets, '/ 921 槽位；名册', rosterNames.size, '；类别声明', catCount, '实抓', catNames.size, '（Set 去重：特殊加成/特殊叠加规则各 2 条同名，非缺失）');
 console.log('新干员:', newOps.map((o) => o.name).join('、'));
 console.log('多余干员:', goneOps.join('、') || '无');
 console.log('新术语:', newTerms.map((t) => t.name).join('、') || '无', '| 多余术语:', goneTerms.join('、') || '无');

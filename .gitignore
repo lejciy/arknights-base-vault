@@ -20,5 +20,8 @@ Desktop.ini
 *.temp
 *.log
 
+# Office lock files
+~$*
+
 # ZCode local
 .zcode/
