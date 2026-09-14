@@ -38,7 +38,7 @@ const holdersOf = (prefix) =>
 
 let fail = 0;
 for (const combo of COMBOS) {
-  const md = readFileSync(join(ROOT, combo.doc), 'utf8');
+  const md = readFileSync(join(ROOT, combo.doc), 'utf8').replace(/\r\n/g, '\n');
   const members = parseMembers(md);
   const holders = holdersOf(combo.skillPrefix);
   const missing = holders.filter((n) => !members.includes(n));

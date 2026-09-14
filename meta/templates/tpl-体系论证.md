@@ -16,7 +16,7 @@ members:
     note: <可选：分支、选择规则>
 conflicts:
   - with: <组合>
-    type: <体系|同站|同设施|资源竞争>
+    type: <同站|同设施|资源竞争>
     reason: <互斥原因>
 coexists_with: [<共存组合>]
 ---
