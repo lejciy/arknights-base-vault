@@ -5,9 +5,9 @@ source: [公孙长乐]
 updated: 2026-09-18
 ---
 
-# 8-skill 知识库问答技能
+# 知识库问答技能（skill/）
 
-> 知识库级的场景化问答 skill，以 prompt 形式编写，每条独立可用。定位与 `meta/agent/SYSTEM_PROMPT.md` 同层：SYSTEM_PROMPT 是总则（数值边界、语言禁忌、回答方式），本目录是具体问题形态的执行流程；两者冲突时以 SYSTEM_PROMPT 为准。本目录属于 agent 行为层，与 `meta/agent/` 一样不入 RAG 语料，目录号为 7 个内容模块之后的顺延编号，不改变「7 内容模块」的结构真源。
+> 知识库级的场景化问答 skill，以 prompt 形式编写，每条独立可用。定位与 `meta/agent/SYSTEM_PROMPT.md` 同层：SYSTEM_PROMPT 是总则（数值边界、语言禁忌、回答方式），本目录是具体问题形态的执行流程；两者冲突时以 SYSTEM_PROMPT 为准。本目录属于 agent 行为层，与 `meta/agent/` 一样不入 RAG 语料；目录名不带编号——模块编号体系只覆盖 `docs/` 下的 7 个内容模块，本目录在其外并列，不改变「7 内容模块」的结构真源。
 
 ## 背书来源
 
