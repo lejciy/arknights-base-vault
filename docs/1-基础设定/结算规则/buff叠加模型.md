@@ -1,7 +1,7 @@
 ---
 type: mechanism
 status: draft
-source: [knightcode, 用户裁决（2026-09-11）]
+source: [knightcode, 公孙长乐]
 updated: 2026-09-11
 ---
 
