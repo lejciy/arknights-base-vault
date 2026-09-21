@@ -33,7 +33,7 @@ if (!existsSync(TARGET)) {
 
 // ---- 1. 白名单：源文件 → 目标路径 ----
 // 目录项递归复制；单文件项直接复制。SRC 为仓库相对路径。
-const DIRS = ['docs', 'skill'];
+const DIRS = ['docs', 'skill', 'LICENSES'];
 const FILES = [
   ['index/README.md', 'index/README.md'],
   ['index/导诊表.md', 'index/导诊表.md'],

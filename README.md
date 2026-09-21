@@ -57,6 +57,10 @@
 - 干员技能详情：[RIIC-Web](https://github.com/KnightCodeSquareMatrix/RIIC-Web)
 - 部分角色用法与数值参考：社区经验
 
+版权声明：知识库内的文本原文等游戏内容，仅用于更好地表现游戏资料，其版权属于上海鹰角网络科技有限公司及其关联公司。
+
+许可：本库采用分区许可，见 `LICENSE`——整体与原创内容 CC BY 4.0；PRTS 来源材料 CC BY-NC-SA 4.0。
+
 致谢：感谢所有为明日方舟基建玩法贡献的玩家。
 
 联系我：<https://space.bilibili.com/22606843>
