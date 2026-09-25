@@ -178,7 +178,7 @@ const RULES = [
   {
     file: 'AGENTS.md',
     from: '- 不入语料：`meta/`、`external/`、`TODO.md`、根目录治理文档；`skill/` 与 `index/` 属行为与检索支撑层，作流程依据而非事实来源。',
-    to: '- 不入语料：`skill/`、`index/`、`agent/`、`tests/` 与 `scripts/`，属行为、检索与测试支撑层，作流程依据而非事实来源。',
+    to: '- 不入语料：`skill/`、`index/`、`agent/`、`templates/`、`参考样例/`、`tests/` 与 `scripts/`，属行为、检索、写作与测试支撑层，作流程依据而非事实来源。',
   },
 ];
 
