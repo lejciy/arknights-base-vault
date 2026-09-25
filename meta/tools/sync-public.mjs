@@ -41,9 +41,16 @@ const FILES = [
   ['LICENSE', 'LICENSE'],
   ['scripts/build-agent-index.mjs', 'scripts/build-agent-index.mjs'],
   ['meta/agent/SYSTEM_PROMPT.md', 'agent/SYSTEM_PROMPT.md'],
+  ['meta/agent/KNOWLEDGE_RULES.md', 'agent/KNOWLEDGE_RULES.md'],
+  ['meta/agent/load-policy.mjs', 'agent/load-policy.mjs'],
 ];
 // 由 build-agent-index.mjs 在目标目录内重建，不从源复制
 const GENERATED = ['index/消歧字典.json', 'index/标题清单.md'];
+// 目录映射（源目录 → 对外目录），整体递归复制：写作模板与实号参考样例作为必要补充随版发布
+const MAPPED_DIRS = [
+  ['meta/templates', 'templates'],
+  ['meta/参考样例', '参考样例'],
+];
 
 // ---- 2. 替换表：把内部痕迹抹成对外可读的表述 ----
 // 每条 {file, from, to, all}；file 为源仓库相对路径。from 未命中只告警（真安全网是第 4 步校验）。
@@ -58,7 +65,7 @@ const RULES = [
     from: '根目录快照由 `scripts/render-skill-snapshot.mjs` 从 `meta/mirror/RIIC-Web/clean/` 数据**全量生成，请勿手改**；人工维护区为 `释义/` 子目录，歧义消歧两页已迁模块3 [歧义/](../3-组合库/歧义/)；全量真源、清洗过程与刷新口径见 `meta/mirror/RIIC-Web/`。',
     to: '根目录快照由 [RIIC-Web](https://github.com/KnightCodeSquareMatrix/RIIC-Web) 数据**全量生成，请勿手改**；人工维护区为 `释义/` 子目录，歧义消歧两页已迁模块3 [歧义/](../3-组合库/歧义/)。',
   },
-  { file: 'docs/2-干员技能/README.md', from: '使用 `meta/templates/tpl-特殊技能释义.md`，存放于 `释义/`', to: '存放于 `释义/`' },
+  { file: 'docs/2-干员技能/README.md', from: '使用 `meta/templates/tpl-特殊技能释义.md`，存放于 `释义/`', to: '写作骨架见 [tpl-特殊技能释义](../../templates/tpl-特殊技能释义.md)，存放于 `释义/`' },
   { file: 'docs/2-干员技能/README.md', from: '（受管增补，D18）', to: '（受管增补）' },
   { file: 'docs/2-干员技能/README.md', from: '为 `clean/` 的静态副本', to: '为上游清洗数据的静态副本' },
   {
@@ -69,7 +76,7 @@ const RULES = [
   {
     file: 'docs/3-组合库/README.md',
     from: '新组合先按 [组合库写作规范](../../meta/templates/组合库写作规范.md) 落深稿',
-    to: '新组合先落深稿',
+    to: '新组合先按 [组合库写作规范](../../templates/组合库写作规范.md) 落深稿',
   },
   {
     file: 'docs/3-组合库/**',
@@ -85,7 +92,12 @@ const RULES = [
   {
     file: 'docs/5-换班操作/README.md',
     from: '各自独立成文（写作骨架见 `meta/templates/tpl-换班方式.md`）：',
-    to: '各自独立成文：',
+    to: '各自独立成文（写作骨架见 [tpl-换班方式](../../templates/tpl-换班方式.md)）：',
+  },
+  {
+    file: 'meta/templates/tpl-特殊技能释义.md',
+    from: '不写入正文，归 `meta/`；「用户裁决」「玩家侧校准」及日期等出处标注同样不写入——只陈述事实，裁决登记 `meta/决策记录.md`。',
+    to: '不写入正文；「用户裁决」「玩家侧校准」及日期等出处标注同样不写入——只陈述事实。',
   },
   {
     file: 'docs/1-基础设定/资源体系/产出常数表.md',
@@ -99,6 +111,7 @@ const RULES = [
     to: '- `index/`、`skill/`、`agent/`、`scripts/` 属行为与检索支撑层，不作为回答依据。',
   },
   { file: 'skill/README.md', from: '定位与 `meta/agent/SYSTEM_PROMPT.md` 同层', to: '定位与 `agent/SYSTEM_PROMPT.md` 同层' },
+  { file: 'skill/README.md', from: '事实与数值边界以 meta/agent/KNOWLEDGE_RULES.md 为准', to: '事实与数值边界以 agent/KNOWLEDGE_RULES.md 为准' },
   {
     file: 'skill/README.md',
     from: '本目录属于 agent 行为层，与 `meta/agent/` 一样不入 RAG 语料；目录名不带编号——模块编号体系只覆盖 `docs/` 下的 7 个内容模块，本目录在其外并列，不改变「7 内容模块」的结构真源。',
@@ -116,26 +129,28 @@ const RULES = [
 | [skill-1-检索路由与歧义消解](skill-1-检索路由与歧义消解.md) | 检索前置：俗称、同效技能名、组合别名先消歧，再按模块路由 | 全部问题的前置；巫恋组=龙舌兰组、裁缝β多名持有者 |
 | [skill-2-产出核算链](skill-2-产出核算链.md) | 多级换算与「效率→产出」计算：日产、月产、折玉折抽、回本周期 | 7、10、45、49、50、53、54、55、63、65、66 |
 | [skill-3-缺员替代与组合降级](skill-3-缺员替代与组合降级.md) | 缺干员、缺练度时查降级档、找等价替换、复校互斥 | 37、38、58、59、61 |
-| [skill-4-组合对比与场景选型](skill-4-组合对比与场景选型.md) | 两组合同场景比较：赤金充裕/紧缺分支、布局前提、互斥检查 | 32、33、35、36、46、47、62 |
+| [skill-4-组合对比与场景选型](skill-4-组合对比与场景选型.md) | 两组合同场景比较：既有摊平口径与产线配平、布局前提、互斥检查 | 32、33、35、36、46、47、62 |
 | [skill-5-报表对账与差异定位](skill-5-报表对账与差异定位.md) | 三日报表判读、实际与预期差额归因、工具预估与简报不一致 | 6、39、64、65、66 |
 | [skill-6-边界识别与转介](skill-6-边界识别与转介.md) | 排班工具操作、MAA、账号与产品侧问题的拆分应答与转介 | 20、67、71、72、73、75、80、81、82 |
 | [skill-7-练卡取舍与回本判断](skill-7-练卡取舍与回本判断.md) | 值不值得练、先练谁、多久回本：定身份 → 五档判据 → 差值口径回本 → 玩家类型顺序 | —（2026-09-18 按公孙长乐指令立项，题号待实测补登） |
-| [skill-8-产出数值诊断](skill-8-产出数值诊断.md) | 报表数值判定：产能指数/钱书和快速分档，逐线效率、平衡账、钱书比详细体检 | —（2026-09-18 按公孙长乐指令立项，题号待实测补登） |`,
+| [skill-8-产出数值诊断](skill-8-产出数值诊断.md) | 报表数值判定：产能指数/钱书和快速分档，逐线效率、平衡账、钱书比详细体检 | —（2026-09-18 按公孙长乐指令立项，题号待实测补登） |
+| [skill-9-排班表审查](skill-9-排班表审查.md) | 排班表体检：输入排班表＋干员盒＋布局与换班方法，逐班判定组合启用与效率，十四项检查输出明确错误与改进点 | —（2026-09-26 按公孙长乐指令立项，题号待实测补登） |`,
     to: `| skill | 承接的问题形态 |
 |---|---|
 | [skill-1-检索路由与歧义消解](skill-1-检索路由与歧义消解.md) | 检索前置：俗称、同效技能名、组合别名先消歧，再按模块路由（如巫恋组＝龙舌兰组、裁缝 β 多名持有者） |
 | [skill-2-产出核算链](skill-2-产出核算链.md) | 多级换算与「效率→产出」计算：日产、月产、折玉折抽、回本周期 |
 | [skill-3-缺员替代与组合降级](skill-3-缺员替代与组合降级.md) | 缺干员、缺练度时查降级档、找等价替换、复校互斥 |
-| [skill-4-组合对比与场景选型](skill-4-组合对比与场景选型.md) | 两组合同场景比较：赤金充裕／紧缺分支、布局前提、互斥检查 |
+| [skill-4-组合对比与场景选型](skill-4-组合对比与场景选型.md) | 两组合同场景比较：既有摊平口径与产线配平、布局前提、互斥检查 |
 | [skill-5-报表对账与差异定位](skill-5-报表对账与差异定位.md) | 三日报表判读、实际与预期差额归因、工具预估与简报不一致 |
 | [skill-6-边界识别与转介](skill-6-边界识别与转介.md) | 排班工具操作、MAA、账号与产品侧问题的拆分应答与转介 |
 | [skill-7-练卡取舍与回本判断](skill-7-练卡取舍与回本判断.md) | 值不值得练、先练谁、多久回本：定身份 → 五档判据 → 差值口径回本 → 玩家类型顺序 |
-| [skill-8-产出数值诊断](skill-8-产出数值诊断.md) | 报表数值判定：产能指数／钱书和快速分档，逐线效率、平衡账、钱书比详细体检 |`,
+| [skill-8-产出数值诊断](skill-8-产出数值诊断.md) | 报表数值判定：产能指数／钱书和快速分档，逐线效率、平衡账、钱书比详细体检 |
+| [skill-9-排班表审查](skill-9-排班表审查.md) | 排班表体检：输入排班表＋干员盒＋布局与换班方法，逐班判定组合启用与效率，十四项检查输出明确错误与改进点 |`,
   },
   {
     file: 'skill/README.md',
     from: '按库方指令直接立项的（如 skill-7），题号列待实测后补登。',
-    to: '先行立项未实测的（如 skill-7、skill-8），入库后补实测复核。',
+    to: '先行立项未实测的（如 skill-7、skill-8、skill-9），入库后补实测复核。',
   },
   { file: 'skill/skill-1-检索路由与歧义消解.md', from: '产物俗称先归一（2026-09-18 D58）：', to: '产物俗称先归一：' },
   {
@@ -144,8 +159,6 @@ const RULES = [
     to: '正文不夹出处标注。',
   },
   { file: 'skill/skill-8-产出数值诊断.md', from: '算例（库方口径）：', to: '算例：' },
-  { file: 'skill/skill-8-产出数值诊断.md', from: '与 [[产出常数表]]·跨资源换算，D59）', to: '与 [[产出常数表]]·跨资源换算）' },
-  { file: 'skill/skill-8-产出数值诊断.md', from: '五项仍为 2026-09-18 库方口径、暂驻', to: '五项为 2026-09-18 口径、暂驻' },
   {
     file: 'AGENTS.md',
     from: '治理规则以 `meta/协作与引用规范.md` 为准，本文件只做指引，不新增规则。',
@@ -156,7 +169,12 @@ const RULES = [
     from: '配套 `skill/` 场景问答手册与 `meta/agent/SYSTEM_PROMPT.md` 行为总则。`meta/`（治理与镜像）、`external/`、`TODO.md` 与根目录治理文档均不是知识语料。',
     to: '配套 `skill/` 场景问答手册与 `agent/SYSTEM_PROMPT.md` 行为总则。`skill/`、`index/`、`agent/` 属行为与检索支撑层，不是知识语料。',
   },
-  { file: 'AGENTS.md', from: '1. 行为总则：`meta/agent/SYSTEM_PROMPT.md`', to: '1. 行为总则：`agent/SYSTEM_PROMPT.md`' },
+  {
+    file: 'AGENTS.md',
+    from: '1. 共享知识总则：`meta/agent/KNOWLEDGE_RULES.md`；独立入口通过 `meta/agent/load-policy.mjs` 展开 `meta/agent/SYSTEM_PROMPT.md`',
+    to: '1. 共享知识总则：`agent/KNOWLEDGE_RULES.md`；独立入口通过 `agent/load-policy.mjs` 展开 `agent/SYSTEM_PROMPT.md`',
+  },
+  { file: 'meta/agent/SYSTEM_PROMPT.md', from: 'meta/agent/load-policy.mjs', to: 'agent/load-policy.mjs' },
   {
     file: 'AGENTS.md',
     from: '- 不入语料：`meta/`、`external/`、`TODO.md`、根目录治理文档；`skill/` 与 `index/` 属行为与检索支撑层，作流程依据而非事实来源。',
@@ -199,6 +217,14 @@ for (const dir of DIRS) {
     sources.push({ src: toPosix(relative(ROOT, abs)), dst: toPosix(relative(ROOT, abs)) });
   }
 }
+for (const [srcDir, dstDir] of MAPPED_DIRS) {
+  for (const abs of walk(join(ROOT, srcDir))) {
+    sources.push({
+      src: toPosix(relative(ROOT, abs)),
+      dst: toPosix(join(dstDir, relative(join(ROOT, srcDir), abs))),
+    });
+  }
+}
 for (const [src, dst] of FILES) sources.push({ src, dst });
 
 // ---- 5. 打补丁（内容级）----
@@ -217,7 +243,7 @@ function patch(relSrc, content) {
 
 // ---- 6. prune：白名单目录内，删除源仓库已不存在的文件 ----
 const expected = new Set(sources.map((s) => s.dst).concat(GENERATED));
-const pruneRoots = DIRS.concat(['agent', 'scripts']);
+const pruneRoots = DIRS.concat(['agent', 'scripts', 'templates', '参考样例']);
 const stale = [];
 for (const root of pruneRoots) {
   const abs = join(TARGET, root);
