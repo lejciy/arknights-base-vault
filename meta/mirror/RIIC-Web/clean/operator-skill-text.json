@@ -8770,6 +8770,55 @@
     ]
   },
   {
+    "id": "char_393_toledo",
+    "name": "德·托莱多",
+    "order": 430,
+    "rarity": 5,
+    "profession": 5,
+    "professionLabel": "辅助",
+    "skills": [
+      {
+        "index": 1,
+        "id": "hire_spd_cost_113",
+        "name": "拉拢听众",
+        "unlock": "初始解锁",
+        "elite": 0,
+        "level": 1,
+        "description": "进驻人力办公室时，人脉资源的联络速度+20%，心情每小时消耗-0.25",
+        "tags": [
+          "联络速度"
+        ],
+        "termRefs": []
+      },
+      {
+        "index": 2,
+        "id": "hire_spd_cost_122",
+        "name": "聚众宣讲",
+        "unlock": "精英 2 提升",
+        "elite": 2,
+        "level": 1,
+        "description": "进驻人力办公室时，人脉资源的联络速度+30%，心情每小时消耗-0.25",
+        "tags": [
+          "联络速度"
+        ],
+        "termRefs": []
+      },
+      {
+        "index": 3,
+        "id": "dorm_hireToRecAll_002",
+        "name": "忠实拥趸",
+        "unlock": "精英 2 解锁",
+        "elite": 2,
+        "level": 1,
+        "description": "进驻宿舍时，该宿舍内所有干员心情每小时恢复+0.1，同时每个招募位（不包含初始招募位）额外+0.05恢复效果（叠加后的最终值同种效果取最高）",
+        "tags": [
+          "群体恢复"
+        ],
+        "termRefs": []
+      }
+    ]
+  },
+  {
     "id": "char_394_hadiya",
     "name": "哈蒂娅",
     "order": 389,
@@ -14621,7 +14670,7 @@
         "unlock": "初始解锁",
         "elite": 0,
         "level": 1,
-        "description": "进驻发电站时，无人机每小时充能速度+15%，如果结城理进驻在制造站，则无人机充能速度额外+5%",
+        "description": "进驻发电站时，无人机充能速度+15%，如果结城理进驻在制造站，则无人机充能速度额外+5%",
         "tags": [],
         "termRefs": []
       },
@@ -15173,6 +15222,89 @@
         "tags": [
           "通用生产"
         ],
+        "termRefs": []
+      }
+    ]
+  },
+  {
+    "id": "char_4231_clemnt",
+    "name": "克莱门莎",
+    "order": 429,
+    "rarity": 6,
+    "profession": 1,
+    "professionLabel": "近卫",
+    "skills": [
+      {
+        "index": 1,
+        "id": "meet_spd&cost_110",
+        "name": "谈判技巧",
+        "unlock": "初始解锁",
+        "elite": 0,
+        "level": 1,
+        "description": "进驻会客室时，线索搜集速度提升20%，心情每小时消耗+1",
+        "tags": [
+          "无特别加成"
+        ],
+        "termRefs": []
+      },
+      {
+        "index": 2,
+        "id": "meet_spd&cost_char_000",
+        "name": "合作原则",
+        "unlock": "精英 2 解锁",
+        "elite": 2,
+        "level": 1,
+        "description": "与其他干员进驻会客室一起工作时，线索搜集速度提升15%，心情每小时消耗+1",
+        "tags": [
+          "无特别加成"
+        ],
+        "termRefs": []
+      }
+    ]
+  },
+  {
+    "id": "char_4232_hbound",
+    "name": "旅骨",
+    "order": 431,
+    "rarity": 5,
+    "profession": 7,
+    "professionLabel": "特种",
+    "skills": [
+      {
+        "index": 1,
+        "id": "recycle_spd&cost_000",
+        "name": "拾荒者",
+        "unlock": "初始解锁",
+        "elite": 0,
+        "level": 1,
+        "description": "进驻回收站时，材料转化效率+20%",
+        "tags": [
+          "转化效率"
+        ],
+        "termRefs": []
+      },
+      {
+        "index": 2,
+        "id": "recycle_spd&cost_010",
+        "name": "捡海人",
+        "unlock": "精英 2 提升",
+        "elite": 2,
+        "level": 1,
+        "description": "进驻回收站时，材料转化效率+30%",
+        "tags": [
+          "转化效率"
+        ],
+        "termRefs": []
+      },
+      {
+        "index": 3,
+        "id": "workshop_formula_device_080",
+        "name": "指尖的光",
+        "unlock": "精英 2 解锁",
+        "elite": 2,
+        "level": 1,
+        "description": "进驻加工站加工手性屈光体或重相位对映体时，副产物的产出概率提升90%",
+        "tags": [],
         "termRefs": []
       }
     ]

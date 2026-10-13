@@ -67,7 +67,7 @@ const RULES = [
   },
   { file: 'docs/2-干员技能/README.md', from: '使用 `meta/templates/tpl-特殊技能释义.md`，存放于 `释义/`', to: '写作骨架见 [tpl-特殊技能释义](../../templates/tpl-特殊技能释义.md)，存放于 `释义/`' },
   { file: 'docs/2-干员技能/README.md', from: '（受管增补，D18）', to: '（受管增补）' },
-  { file: 'docs/2-干员技能/README.md', from: '为 `clean/` 的静态副本', to: '为上游清洗数据的静态副本' },
+  { file: 'docs/2-干员技能/README.md', from: '`clean/` 下的 `operator-skill-text.json`、`skill-terms.json` 仅供脚本消费', to: '`operator-skill-text.json`、`skill-terms.json` 为上游清洗数据，仅供脚本消费' },
   {
     file: 'docs/1-基础设定/资源体系/基建生产关系.md',
     from: '换算常数取自玩家口径（素材 `external/搓玉与库存.docx`）：',
@@ -191,7 +191,8 @@ const FORBIDDEN = [
   { re: /库方/g, label: '内部称谓「库方」' },
   { re: /决策记录/g, label: '内部决策记录引用' },
   { re: /内容目录/g, label: '内部进度文档引用' },
-  { re: /\bD\d{1,2}\b/g, label: '内部决策编号' },
+  // 决策编号后面只会跟空格/标点/行尾；紧邻汉字的 D+数字是材料名（如金色材料 D32钢），排除以免误报
+  { re: /\bD\d{1,2}\b(?![\u4e00-\u9fff])/g, label: '内部决策编号' },
 ];
 
 // ---- 工具 ----

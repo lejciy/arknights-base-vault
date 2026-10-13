@@ -7,10 +7,10 @@
 
 | 层 | 仓库 | commit |
 |---|---|---|
-| 引入通道 | `KnightCodeSquareMatrix/RIIC-Web`（`src/generated/arkntools/`，原样镜像） | `a4279694bad3fa846d84c35c452d2028f914e5e9`（2026-09-08，"chore: 同步 arkntools 干员资源"） |
-| 数据源头 | `arkntools/arknights-toolbox-data`（见 `src/generated/arkntools/source.json`） | `302105b1404bd488c4700d063da9dcf3661a94f0` |
+| 引入通道 | `KnightCodeSquareMatrix/RIIC-Web`（`src/generated/arkntools/`，原样镜像） | `4e3287ecb4fc56d9b2291a9b631b3973712fac99`（2026-10-12，"chore: 同步 arkntools 干员资源"；首引入 `a4279694bad3fa846d84c35c452d2028f914e5e9`，2026-09-08） |
+| 数据源头 | `arkntools/arknights-toolbox-data`（见 `src/generated/arkntools/source.json`） | `1b7752b9374f452bc23b153fc658d4f9019463a8` |
 
-数据规模：干员 429 / 基建技能 755 / 术语 82（`source.json` 内含清单）。
+数据规模：干员 432 / 基建技能 763 / 术语 82（`source.json` 内含清单）。2026-10-12 刷新：新增干员 克莱门莎（☆6 会客室）、德·托莱多（☆5 办公室＋宿舍）、旅骨（☆5 回收站＋加工站），技能 +8；**新增设施前缀 `recycle`（回收站）**——上游 `messages/zh.json` 的 `Rooms.*` 当时尚未收录，设施名取技能描述原文「进驻回收站时」，清洗/渲染/校验三脚本映射已同步增补。
 
 ## 目录结构
 
@@ -49,5 +49,5 @@ clean/*.json                     纯文本清洗版，脚本生成，勿手改
 
 ## 已知口径
 
-- 本真源（arkntools@`302105b`）**新于** `docs/2-干员技能/` Markdown 快照的底料（arkntools@`4d47475`，747 技能/425 干员/81 术语），即快照落后本源 8 技能/4 干员/1 术语。快照刷新依赖上游 RIIC-KnowledgeAgent 重跑 `build_refs.py` 后整体重新引入；差异登记见 `知识库模块设计.md` §2.2。
+- 快照同步状态（2026-10-13 刷新）：`docs/2-干员技能/` Markdown 快照由 `scripts/render-skill-snapshot.mjs` 从本真源全量渲染，与本源同步（历史：D16 之前快照底料为 arkntools@`4d47475`，747 技能/425 干员/81 术语，落后旧源 8 技能/4 干员/1 术语）。
 - `operator-catalog` 的 `profession`/`position` 为数值代码（非文本），如需语义化在上游消费侧映射。

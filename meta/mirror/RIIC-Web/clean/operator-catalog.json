@@ -5551,6 +5551,37 @@
     "professionLabel": "狙击"
   },
   {
+    "id": "char_393_toledo",
+    "name": "德·托莱多",
+    "order": 430,
+    "rarity": 5,
+    "profession": 5,
+    "buildingSkills": [
+      {
+        "index": 1,
+        "id": "hire_spd_cost_113",
+        "elite": 0,
+        "level": 1,
+        "unlock": "初始解锁"
+      },
+      {
+        "index": 2,
+        "id": "hire_spd_cost_122",
+        "elite": 2,
+        "level": 1,
+        "unlock": "精英 2 提升"
+      },
+      {
+        "index": 3,
+        "id": "dorm_hireToRecAll_002",
+        "elite": 2,
+        "level": 1,
+        "unlock": "精英 2 解锁"
+      }
+    ],
+    "professionLabel": "辅助"
+  },
+  {
     "id": "char_394_hadiya",
     "name": "哈蒂娅",
     "order": 389,
@@ -9455,6 +9486,61 @@
       }
     ],
     "professionLabel": "重装"
+  },
+  {
+    "id": "char_4231_clemnt",
+    "name": "克莱门莎",
+    "order": 429,
+    "rarity": 6,
+    "profession": 1,
+    "buildingSkills": [
+      {
+        "index": 1,
+        "id": "meet_spd&cost_110",
+        "elite": 0,
+        "level": 1,
+        "unlock": "初始解锁"
+      },
+      {
+        "index": 2,
+        "id": "meet_spd&cost_char_000",
+        "elite": 2,
+        "level": 1,
+        "unlock": "精英 2 解锁"
+      }
+    ],
+    "professionLabel": "近卫"
+  },
+  {
+    "id": "char_4232_hbound",
+    "name": "旅骨",
+    "order": 431,
+    "rarity": 5,
+    "profession": 7,
+    "buildingSkills": [
+      {
+        "index": 1,
+        "id": "recycle_spd&cost_000",
+        "elite": 0,
+        "level": 1,
+        "unlock": "初始解锁"
+      },
+      {
+        "index": 2,
+        "id": "recycle_spd&cost_010",
+        "elite": 2,
+        "level": 1,
+        "unlock": "精英 2 提升"
+      },
+      {
+        "index": 3,
+        "id": "workshop_formula_device_080",
+        "elite": 2,
+        "level": 1,
+        "unlock": "精英 2 解锁"
+      }
+    ],
+    "professionLabel": "特种"
   },
   {
     "id": "char_4234_pedro",

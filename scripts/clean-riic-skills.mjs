@@ -87,6 +87,10 @@ const PROFESSION_LABELS = { 1: '近卫', 2: '狙击', 3: '重装', 4: '医疗', 
 const ROOM_LABELS = {
   control: '控制中枢', power: '发电站', manu: '制造站', trade: '贸易站',
   dorm: '宿舍', hire: '办公室', meet: '会客室', train: '训练室', workshop: '加工站',
+  // recycle（回收站）：2026-10-12 起新数据出现（arkntools@1b7752b，旅骨）。上游
+  // messages/zh.json 的 Rooms.* 当日尚未收录该前缀，设施名取技能描述原文
+  // 「进驻回收站时」。
+  recycle: '回收站',
 };
 
 function unlockLabel(refs, ref) {

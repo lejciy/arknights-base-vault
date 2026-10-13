@@ -1,0 +1,28 @@
+[
+  {
+    "probe": "标题缓存与正文更新",
+    "result": "已复现",
+    "routeLabel": "旧规则：旧值",
+    "readTitle": "新规范",
+    "implication": "60秒TTL内可以返回旧候选说明，同时读到新正文；单次会话没有共享知识快照。"
+  },
+  {
+    "probe": "缓存TTL到期",
+    "result": "已复现",
+    "observedAfterMs": 60001,
+    "implication": "重建标题索引后，下次查询可在TTL到期后看到更新；实际正文更新本身不会生成索引。"
+  },
+  {
+    "probe": "现有正文入口范围",
+    "result": "通过",
+    "implication": "meta与简单路径穿越被拒绝。本探针不是完整安全审计。"
+  },
+  {
+    "probe": "实验计量完整性",
+    "result": "通过",
+    "retrievalRecords": 540,
+    "communityRecords": 410,
+    "identicalRankingsAcrossRepeats": true,
+    "implication": "540条带标签记录、410条未标注记录；三个重复只衡量运行计时与确定性，不表示LLM三轮作答。"
+  }
+]

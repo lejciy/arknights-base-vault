@@ -1305,10 +1305,11 @@
       ]
     },
     "群体恢复": {
-      "count": 40,
+      "count": 41,
       "skills": [
         "dorm_hireToRecAll_000",
         "dorm_hireToRecAll_001",
+        "dorm_hireToRecAll_002",
         "dorm_hireToRecAll_021",
         "dorm_powToRecAll_000",
         "dorm_powToRecAll_010",
@@ -1432,7 +1433,7 @@
       ]
     },
     "联络速度": {
-      "count": 42,
+      "count": 44,
       "skills": [
         "hire_spd_000",
         "hire_spd_001",
@@ -1452,8 +1453,10 @@
         "hire_spd_cost_110",
         "hire_spd_cost_111",
         "hire_spd_cost_112",
+        "hire_spd_cost_113",
         "hire_spd_cost_120",
         "hire_spd_cost_121",
+        "hire_spd_cost_122",
         "hire_spd_cost_200",
         "hire_spd_cost_210",
         "hire_spd_cost_220",
@@ -1668,7 +1671,7 @@
       ]
     },
     "无特别加成": {
-      "count": 54,
+      "count": 56,
       "skills": [
         "meet_spd_000",
         "meet_spd_0020",
@@ -1699,6 +1702,8 @@
         "meet_spd&clue_000",
         "meet_spd&cost_000",
         "meet_spd&cost_100",
+        "meet_spd&cost_110",
+        "meet_spd&cost_char_000",
         "meet_spd&cost_condChar_000",
         "meet_spd&cost_condChar_001",
         "meet_spd&cost_condChar_002",
@@ -1755,6 +1760,13 @@
       "skills": [
         "meet_spd&team_020",
         "meet_team_020"
+      ]
+    },
+    "转化效率": {
+      "count": 2,
+      "skills": [
+        "recycle_spd&cost_000",
+        "recycle_spd&cost_010"
       ]
     },
     "特殊订单": {
@@ -2077,11 +2089,11 @@
     },
     "dorm": {
       "name": "宿舍",
-      "count": 86
+      "count": 87
     },
     "hire": {
       "name": "办公室",
-      "count": 45
+      "count": 47
     },
     "manu": {
       "name": "制造站",
@@ -2089,11 +2101,15 @@
     },
     "meet": {
       "name": "会客室",
-      "count": 73
+      "count": 75
     },
     "power": {
       "name": "发电站",
       "count": 41
+    },
+    "recycle": {
+      "name": "回收站",
+      "count": 2
     },
     "trade": {
       "name": "贸易站",
@@ -2105,7 +2121,7 @@
     },
     "workshop": {
       "name": "加工站",
-      "count": 105
+      "count": 106
     }
   }
 }

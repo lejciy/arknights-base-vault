@@ -1,0 +1,2127 @@
+{
+  "source": "F:\\apktool\\新建文件夹\\analysis\\解包输出\\gamedata_261009_092027\\gamedata\\excel\\building_data73949e.bytes",
+  "source_sha256": "65bcc04d776e15c0ece8b5f4f3f17dbbda36592441c41fb02777ca3e5bfecdca",
+  "data_offset": 128,
+  "schema_note": "Explicit new section layouts named with a public JSON reference. All section values and offsets read independently from local bytes. Existing nested schemas reused after root slot shift.",
+  "reference_url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/master/zh_CN/gamedata/excel/building_data.json",
+  "reference_sha256": "b98657bc691224a01d3cd044bf68698e9664e7f26c5d24ae104352be7954049b",
+  "comparison_to_reference": {
+    "recycleData": true,
+    "recycleRoomOutputPoolDatas": true,
+    "recycleRoomOutputPoolContentDatas": true,
+    "recycleRoomInputItemDatas": true,
+    "recycleRoomConsts": true
+  },
+  "nested_schema_warnings": [],
+  "sections": {
+    "recycleData": {
+      "basicSpeedBuff": 0.009999999776482582,
+      "phases": [
+        {
+          "recycleCapacity": 0,
+          "recycleSpeed": 1.0
+        },
+        {
+          "recycleCapacity": 5,
+          "recycleSpeed": 1.0
+        },
+        {
+          "recycleCapacity": 5,
+          "recycleSpeed": 1.2000000476837158
+        }
+      ]
+    },
+    "recycleRoomOutputPoolDatas": {
+      "itemPool1": {
+        "itemPoolId": "itemPool1",
+        "itemPoolStartTime": 1791489600,
+        "itemPoolEndTime": 4101681599,
+        "extraPoolId": "itemPool1_extra",
+        "extraPoolRequirement": 10000
+      }
+    },
+    "recycleRoomOutputPoolContentDatas": {
+      "itemPool1": {
+        "items": [
+          {
+            "itemId": "31034",
+            "targetTags": [
+              "31033"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30044",
+            "targetTags": [
+              "30041"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30054",
+            "targetTags": [
+              "30051"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31084",
+            "targetTags": [
+              "31083"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31074",
+            "targetTags": [
+              "31073"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31024",
+            "targetTags": [
+              "31023"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31044",
+            "targetTags": [
+              "31043"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31054",
+            "targetTags": [
+              "31053"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31094",
+            "targetTags": [
+              "31093"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31064",
+            "targetTags": [
+              "31063"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31104",
+            "targetTags": [
+              "31103"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31114",
+            "targetTags": [
+              "31113"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30064",
+            "targetTags": [
+              "30061"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30104",
+            "targetTags": [
+              "30103"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30084",
+            "targetTags": [
+              "30083"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30034",
+            "targetTags": [
+              "30031"
+            ],
+            "weight": 4,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30094",
+            "targetTags": [
+              "30093"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30024",
+            "targetTags": [
+              "30021"
+            ],
+            "weight": 4,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30074",
+            "targetTags": [
+              "30073"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31014",
+            "targetTags": [
+              "31013"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30014",
+            "targetTags": [
+              "30011"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30063",
+            "targetTags": [
+              "30061"
+            ],
+            "weight": 290,
+            "count": 1,
+            "extraPoolValueChange": 500,
+            "isNew": false
+          },
+          {
+            "itemId": "31083",
+            "targetTags": [
+              "31083"
+            ],
+            "weight": 290,
+            "count": 1,
+            "extraPoolValueChange": 500,
+            "isNew": false
+          },
+          {
+            "itemId": "31103",
+            "targetTags": [
+              "31103"
+            ],
+            "weight": 290,
+            "count": 1,
+            "extraPoolValueChange": 500,
+            "isNew": false
+          },
+          {
+            "itemId": "31113",
+            "targetTags": [
+              "31113"
+            ],
+            "weight": 290,
+            "count": 1,
+            "extraPoolValueChange": 500,
+            "isNew": false
+          },
+          {
+            "itemId": "31063",
+            "targetTags": [
+              "31063"
+            ],
+            "weight": 290,
+            "count": 1,
+            "extraPoolValueChange": 500,
+            "isNew": false
+          },
+          {
+            "itemId": "31073",
+            "targetTags": [
+              "31073"
+            ],
+            "weight": 290,
+            "count": 1,
+            "extraPoolValueChange": 500,
+            "isNew": false
+          },
+          {
+            "itemId": "31013",
+            "targetTags": [
+              "31013"
+            ],
+            "weight": 290,
+            "count": 1,
+            "extraPoolValueChange": 500,
+            "isNew": false
+          },
+          {
+            "itemId": "31043",
+            "targetTags": [
+              "31043"
+            ],
+            "weight": 290,
+            "count": 1,
+            "extraPoolValueChange": 500,
+            "isNew": false
+          },
+          {
+            "itemId": "31053",
+            "targetTags": [
+              "31053"
+            ],
+            "weight": 290,
+            "count": 1,
+            "extraPoolValueChange": 500,
+            "isNew": false
+          },
+          {
+            "itemId": "31093",
+            "targetTags": [
+              "31093"
+            ],
+            "weight": 290,
+            "count": 1,
+            "extraPoolValueChange": 500,
+            "isNew": false
+          },
+          {
+            "itemId": "30043",
+            "targetTags": [
+              "30041"
+            ],
+            "weight": 290,
+            "count": 1,
+            "extraPoolValueChange": 500,
+            "isNew": false
+          },
+          {
+            "itemId": "30053",
+            "targetTags": [
+              "30051"
+            ],
+            "weight": 290,
+            "count": 1,
+            "extraPoolValueChange": 500,
+            "isNew": false
+          },
+          {
+            "itemId": "31023",
+            "targetTags": [
+              "31023"
+            ],
+            "weight": 290,
+            "count": 1,
+            "extraPoolValueChange": 500,
+            "isNew": false
+          },
+          {
+            "itemId": "31033",
+            "targetTags": [
+              "31033"
+            ],
+            "weight": 290,
+            "count": 1,
+            "extraPoolValueChange": 500,
+            "isNew": false
+          },
+          {
+            "itemId": "30023",
+            "targetTags": [
+              "30021"
+            ],
+            "weight": 290,
+            "count": 1,
+            "extraPoolValueChange": 500,
+            "isNew": false
+          },
+          {
+            "itemId": "30033",
+            "targetTags": [
+              "30031"
+            ],
+            "weight": 290,
+            "count": 1,
+            "extraPoolValueChange": 500,
+            "isNew": false
+          },
+          {
+            "itemId": "30013",
+            "targetTags": [
+              "30011"
+            ],
+            "weight": 290,
+            "count": 1,
+            "extraPoolValueChange": 500,
+            "isNew": false
+          },
+          {
+            "itemId": "30062",
+            "targetTags": [
+              "30061"
+            ],
+            "weight": 717,
+            "count": 1,
+            "extraPoolValueChange": 650,
+            "isNew": false
+          },
+          {
+            "itemId": "30042",
+            "targetTags": [
+              "30041"
+            ],
+            "weight": 717,
+            "count": 1,
+            "extraPoolValueChange": 650,
+            "isNew": false
+          },
+          {
+            "itemId": "30052",
+            "targetTags": [
+              "30051"
+            ],
+            "weight": 717,
+            "count": 1,
+            "extraPoolValueChange": 650,
+            "isNew": false
+          },
+          {
+            "itemId": "30022",
+            "targetTags": [
+              "30021"
+            ],
+            "weight": 717,
+            "count": 1,
+            "extraPoolValueChange": 650,
+            "isNew": false
+          },
+          {
+            "itemId": "30032",
+            "targetTags": [
+              "30031"
+            ],
+            "weight": 717,
+            "count": 1,
+            "extraPoolValueChange": 650,
+            "isNew": false
+          },
+          {
+            "itemId": "30012",
+            "targetTags": [
+              "30011"
+            ],
+            "weight": 717,
+            "count": 1,
+            "extraPoolValueChange": 650,
+            "isNew": false
+          }
+        ]
+      },
+      "itemPool1_extra": {
+        "items": [
+          {
+            "itemId": "30165",
+            "targetTags": [],
+            "weight": 168,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30145",
+            "targetTags": [],
+            "weight": 168,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30155",
+            "targetTags": [],
+            "weight": 168,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30115",
+            "targetTags": [],
+            "weight": 168,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30125",
+            "targetTags": [],
+            "weight": 168,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30135",
+            "targetTags": [],
+            "weight": 168,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31034",
+            "targetTags": [
+              "31033"
+            ],
+            "weight": 468,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30044",
+            "targetTags": [
+              "30041"
+            ],
+            "weight": 468,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30054",
+            "targetTags": [
+              "30051"
+            ],
+            "weight": 468,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31084",
+            "targetTags": [
+              "31083"
+            ],
+            "weight": 468,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31074",
+            "targetTags": [
+              "31073"
+            ],
+            "weight": 468,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31024",
+            "targetTags": [
+              "31023"
+            ],
+            "weight": 468,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31044",
+            "targetTags": [
+              "31043"
+            ],
+            "weight": 468,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30064",
+            "targetTags": [
+              "30061"
+            ],
+            "weight": 468,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30104",
+            "targetTags": [
+              "30103"
+            ],
+            "weight": 468,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30084",
+            "targetTags": [
+              "30083"
+            ],
+            "weight": 468,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30034",
+            "targetTags": [
+              "30031"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30094",
+            "targetTags": [
+              "30093"
+            ],
+            "weight": 468,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30024",
+            "targetTags": [
+              "30021"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30074",
+            "targetTags": [
+              "30073"
+            ],
+            "weight": 468,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31054",
+            "targetTags": [
+              "31053"
+            ],
+            "weight": 468,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31094",
+            "targetTags": [
+              "31093"
+            ],
+            "weight": 468,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31064",
+            "targetTags": [
+              "31063"
+            ],
+            "weight": 468,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31104",
+            "targetTags": [
+              "31103"
+            ],
+            "weight": 468,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31114",
+            "targetTags": [
+              "31113"
+            ],
+            "weight": 468,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31014",
+            "targetTags": [
+              "31013"
+            ],
+            "weight": 468,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30014",
+            "targetTags": [
+              "30011"
+            ],
+            "weight": 488,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          }
+        ]
+      }
+    },
+    "recycleRoomInputItemDatas": {
+      "30063": {
+        "itemId": "30063",
+        "addedTime": 16200
+      },
+      "30103": {
+        "itemId": "30103",
+        "addedTime": 16200
+      },
+      "31083": {
+        "itemId": "31083",
+        "addedTime": 16200
+      },
+      "31103": {
+        "itemId": "31103",
+        "addedTime": 16200
+      },
+      "31113": {
+        "itemId": "31113",
+        "addedTime": 16200
+      },
+      "31063": {
+        "itemId": "31063",
+        "addedTime": 14400
+      },
+      "31073": {
+        "itemId": "31073",
+        "addedTime": 14400
+      },
+      "30093": {
+        "itemId": "30093",
+        "addedTime": 12600
+      },
+      "31013": {
+        "itemId": "31013",
+        "addedTime": 12600
+      },
+      "31043": {
+        "itemId": "31043",
+        "addedTime": 12600
+      },
+      "31053": {
+        "itemId": "31053",
+        "addedTime": 12600
+      },
+      "31093": {
+        "itemId": "31093",
+        "addedTime": 12600
+      },
+      "30083": {
+        "itemId": "30083",
+        "addedTime": 10800
+      },
+      "30043": {
+        "itemId": "30043",
+        "addedTime": 10800
+      },
+      "30053": {
+        "itemId": "30053",
+        "addedTime": 10800
+      },
+      "31023": {
+        "itemId": "31023",
+        "addedTime": 10800
+      },
+      "31033": {
+        "itemId": "31033",
+        "addedTime": 10800
+      },
+      "30073": {
+        "itemId": "30073",
+        "addedTime": 9000
+      },
+      "30023": {
+        "itemId": "30023",
+        "addedTime": 9000
+      },
+      "30033": {
+        "itemId": "30033",
+        "addedTime": 9000
+      },
+      "30013": {
+        "itemId": "30013",
+        "addedTime": 7200
+      }
+    },
+    "recycleRoomConsts": {
+      "recycleTimeRequirement": 172800,
+      "recycleBaseCapacity": 5,
+      "recycleBoostSpeed": 0.5,
+      "recycleBoostLimit": 345600,
+      "recycleBoostLimitProtect": 691200,
+      "recycleSpeedUpUnlockLevel": 3,
+      "recycleTwoPersonUnlockLevel": 2
+    },
+    "Rooms": {
+      "RECYCLE": {
+        "CanLevelDown": false,
+        "Category": 1,
+        "DefaultPrefabId": "room_recycle_4x2",
+        "Description": "罗德岛的材料转化设施，通过研究已知材料的结构和特性，回收材料，可以产出全新的材料。",
+        "Id": 8192,
+        "MaxCount": 1,
+        "Name": "回收站",
+        "Phases": [
+          {
+            "BuildCost": {
+              "Items": [
+                {
+                  "Count": 1,
+                  "Id": "3131",
+                  "Type": 3
+                }
+              ],
+              "Labor": 10,
+              "Time": 0
+            },
+            "Electricity": 0,
+            "ManpowerCost": 100,
+            "MaxStationedNum": 1,
+            "OverrideName": null,
+            "OverridePrefabId": null,
+            "UnlockCondId": "RECYCLE#1"
+          },
+          {
+            "BuildCost": {
+              "Items": [
+                {
+                  "Count": 3,
+                  "Id": "3132",
+                  "Type": 3
+                }
+              ],
+              "Labor": 60,
+              "Time": 0
+            },
+            "Electricity": 0,
+            "ManpowerCost": 100,
+            "MaxStationedNum": 2,
+            "OverrideName": null,
+            "OverridePrefabId": null,
+            "UnlockCondId": "RECYCLE#2"
+          },
+          {
+            "BuildCost": {
+              "Items": [
+                {
+                  "Count": 5,
+                  "Id": "3133",
+                  "Type": 3
+                }
+              ],
+              "Labor": 120,
+              "Time": 0
+            },
+            "Electricity": 0,
+            "ManpowerCost": 100,
+            "MaxStationedNum": 2,
+            "OverrideName": null,
+            "OverridePrefabId": null,
+            "UnlockCondId": "RECYCLE#3"
+          }
+        ],
+        "Size": {
+          "Col": 4,
+          "Row": 2
+        }
+      }
+    },
+    "RoomUnlockConds": {
+      "RECYCLE#1": {
+        "Id": "RECYCLE#1",
+        "Number": {
+          "1": {
+            "Count": 1,
+            "Level": 1,
+            "Type": 2048
+          }
+        }
+      },
+      "RECYCLE#2": {
+        "Id": "RECYCLE#2",
+        "Number": {
+          "1": {
+            "Count": 1,
+            "Level": 5,
+            "Type": 1
+          }
+        }
+      },
+      "RECYCLE#3": {
+        "Id": "RECYCLE#3",
+        "Number": {
+          "1": {
+            "Count": 1,
+            "Level": 5,
+            "Type": 1
+          }
+        }
+      }
+    },
+    "Buffs": {
+      "recycle_spd&cost[000]": {
+        "BuffCategory": 1,
+        "BuffColor": "#6ccbcb",
+        "BuffIcon": "recycle",
+        "BuffId": "recycle_spd&cost[000]",
+        "BuffName": "拾荒者",
+        "Description": "进驻回收站时，材料转化效率<@cc.vup>+20%</>",
+        "Efficiency": 20,
+        "RoomType": 8192,
+        "SkillIcon": "bskill_recycle_spd&cost1",
+        "SortId": 10001,
+        "TargetGroupSortId": 0,
+        "Targets": [],
+        "TextColor": "#333333"
+      },
+      "recycle_spd&cost[010]": {
+        "BuffCategory": 1,
+        "BuffColor": "#6ccbcb",
+        "BuffIcon": "recycle",
+        "BuffId": "recycle_spd&cost[010]",
+        "BuffName": "捡海人",
+        "Description": "进驻回收站时，材料转化效率<@cc.vup>+30%</>",
+        "Efficiency": 30,
+        "RoomType": 8192,
+        "SkillIcon": "bskill_recycle_spd&cost2",
+        "SortId": 10002,
+        "TargetGroupSortId": 0,
+        "Targets": [],
+        "TextColor": "#333333"
+      }
+    },
+    "Chars": {
+      "char_4232_hbound": {
+        "BuffChar": [
+          {
+            "BuffData": [
+              {
+                "BuffId": "recycle_spd&cost[000]",
+                "Cond": {
+                  "Level": 1,
+                  "Phase": 0
+                }
+              },
+              {
+                "BuffId": "recycle_spd&cost[010]",
+                "Cond": {
+                  "Level": 1,
+                  "Phase": 2
+                }
+              }
+            ]
+          },
+          {
+            "BuffData": [
+              {
+                "BuffId": "workshop_formula_device[080]",
+                "Cond": {
+                  "Level": 1,
+                  "Phase": 2
+                }
+              }
+            ]
+          }
+        ],
+        "CharId": "char_4232_hbound",
+        "MaxManpower": 8640000
+      }
+    },
+    "ItemNames": {
+      "30012": {
+        "name": "固源岩",
+        "rarity": 1
+      },
+      "30013": {
+        "name": "固源岩组",
+        "rarity": 2
+      },
+      "30014": {
+        "name": "提纯源岩",
+        "rarity": 3
+      },
+      "30022": {
+        "name": "糖",
+        "rarity": 1
+      },
+      "30023": {
+        "name": "糖组",
+        "rarity": 2
+      },
+      "30024": {
+        "name": "糖聚块",
+        "rarity": 3
+      },
+      "30032": {
+        "name": "聚酸酯",
+        "rarity": 1
+      },
+      "30033": {
+        "name": "聚酸酯组",
+        "rarity": 2
+      },
+      "30034": {
+        "name": "聚酸酯块",
+        "rarity": 3
+      },
+      "30042": {
+        "name": "异铁",
+        "rarity": 1
+      },
+      "30043": {
+        "name": "异铁组",
+        "rarity": 2
+      },
+      "30044": {
+        "name": "异铁块",
+        "rarity": 3
+      },
+      "30052": {
+        "name": "酮凝集",
+        "rarity": 1
+      },
+      "30053": {
+        "name": "酮凝集组",
+        "rarity": 2
+      },
+      "30054": {
+        "name": "酮阵列",
+        "rarity": 3
+      },
+      "30062": {
+        "name": "装置",
+        "rarity": 1
+      },
+      "30063": {
+        "name": "全新装置",
+        "rarity": 2
+      },
+      "30064": {
+        "name": "改量装置",
+        "rarity": 3
+      },
+      "30073": {
+        "name": "扭转醇",
+        "rarity": 2
+      },
+      "30074": {
+        "name": "白马醇",
+        "rarity": 3
+      },
+      "30083": {
+        "name": "轻锰矿",
+        "rarity": 2
+      },
+      "30084": {
+        "name": "三水锰矿",
+        "rarity": 3
+      },
+      "30093": {
+        "name": "研磨石",
+        "rarity": 2
+      },
+      "30094": {
+        "name": "五水研磨石",
+        "rarity": 3
+      },
+      "30103": {
+        "name": "RMA70-12",
+        "rarity": 2
+      },
+      "30104": {
+        "name": "RMA70-24",
+        "rarity": 3
+      },
+      "30115": {
+        "name": "聚合剂",
+        "rarity": 4
+      },
+      "30125": {
+        "name": "双极纳米片",
+        "rarity": 4
+      },
+      "30135": {
+        "name": "D32钢",
+        "rarity": 4
+      },
+      "30145": {
+        "name": "晶体电子单元",
+        "rarity": 4
+      },
+      "30155": {
+        "name": "烧结核凝晶",
+        "rarity": 4
+      },
+      "30165": {
+        "name": "重相位对映体",
+        "rarity": 4
+      },
+      "31013": {
+        "name": "凝胶",
+        "rarity": 2
+      },
+      "31014": {
+        "name": "聚合凝胶",
+        "rarity": 3
+      },
+      "31023": {
+        "name": "炽合金",
+        "rarity": 2
+      },
+      "31024": {
+        "name": "炽合金块",
+        "rarity": 3
+      },
+      "31033": {
+        "name": "晶体元件",
+        "rarity": 2
+      },
+      "31034": {
+        "name": "晶体电路",
+        "rarity": 3
+      },
+      "31043": {
+        "name": "半自然溶剂",
+        "rarity": 2
+      },
+      "31044": {
+        "name": "精炼溶剂",
+        "rarity": 3
+      },
+      "31053": {
+        "name": "化合切削液",
+        "rarity": 2
+      },
+      "31054": {
+        "name": "切削原液",
+        "rarity": 3
+      },
+      "31063": {
+        "name": "转质盐组",
+        "rarity": 2
+      },
+      "31064": {
+        "name": "转质盐聚块",
+        "rarity": 3
+      },
+      "31073": {
+        "name": "褐素纤维",
+        "rarity": 2
+      },
+      "31074": {
+        "name": "固化纤维板",
+        "rarity": 3
+      },
+      "31083": {
+        "name": "环烃聚质",
+        "rarity": 2
+      },
+      "31084": {
+        "name": "环烃预制体",
+        "rarity": 3
+      },
+      "31093": {
+        "name": "类凝结核",
+        "rarity": 2
+      },
+      "31094": {
+        "name": "手性屈光体",
+        "rarity": 3
+      },
+      "31103": {
+        "name": "液化高能气体",
+        "rarity": 2
+      },
+      "31104": {
+        "name": "液化醚吸聚体",
+        "rarity": 3
+      },
+      "31113": {
+        "name": "电极单元",
+        "rarity": 2
+      },
+      "31114": {
+        "name": "聚能动力单元",
+        "rarity": 3
+      },
+      "3131": {
+        "name": "基础加固建材",
+        "rarity": 1
+      },
+      "3132": {
+        "name": "进阶加固建材",
+        "rarity": 2
+      },
+      "3133": {
+        "name": "高级加固建材",
+        "rarity": 3
+      }
+    },
+    "CharacterNames": {
+      "char_4232_hbound": "旅骨"
+    }
+  },
+  "offsets": {
+    "recycleData": {
+      "table_file_offset": 61844,
+      "field_file_offsets": {
+        "4": 61848,
+        "6": 61852
+      }
+    },
+    "recycleData.phases[61732]": {
+      "table_file_offset": 61896,
+      "field_file_offsets": {
+        "6": 61900
+      }
+    },
+    "recycleData.phases[61736]": {
+      "table_file_offset": 61884,
+      "field_file_offsets": {
+        "4": 61892,
+        "6": 61888
+      }
+    },
+    "recycleData.phases[61740]": {
+      "table_file_offset": 61872,
+      "field_file_offsets": {
+        "4": 61880,
+        "6": 61876
+      }
+    },
+    "recycleRoomOutputPoolDatas.itemPool1": {
+      "table_file_offset": 56332,
+      "field_file_offsets": {
+        "4": 56360,
+        "6": 56336,
+        "8": 56344,
+        "10": 56364,
+        "12": 56356
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1": {
+      "table_file_offset": 57904,
+      "field_file_offsets": {
+        "4": 57908
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57788]": {
+      "table_file_offset": 60444,
+      "field_file_offsets": {
+        "4": 60460,
+        "6": 60456,
+        "8": 60448,
+        "10": 60452
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57792]": {
+      "table_file_offset": 60380,
+      "field_file_offsets": {
+        "4": 60396,
+        "6": 60392,
+        "8": 60384,
+        "10": 60388
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57796]": {
+      "table_file_offset": 60328,
+      "field_file_offsets": {
+        "4": 60344,
+        "6": 60340,
+        "8": 60332,
+        "10": 60336
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57800]": {
+      "table_file_offset": 60276,
+      "field_file_offsets": {
+        "4": 60292,
+        "6": 60288,
+        "8": 60280,
+        "10": 60284
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57804]": {
+      "table_file_offset": 60224,
+      "field_file_offsets": {
+        "4": 60240,
+        "6": 60236,
+        "8": 60228,
+        "10": 60232
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57808]": {
+      "table_file_offset": 60172,
+      "field_file_offsets": {
+        "4": 60188,
+        "6": 60184,
+        "8": 60176,
+        "10": 60180
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57812]": {
+      "table_file_offset": 60120,
+      "field_file_offsets": {
+        "4": 60136,
+        "6": 60132,
+        "8": 60124,
+        "10": 60128
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57816]": {
+      "table_file_offset": 60068,
+      "field_file_offsets": {
+        "4": 60084,
+        "6": 60080,
+        "8": 60072,
+        "10": 60076
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57820]": {
+      "table_file_offset": 60016,
+      "field_file_offsets": {
+        "4": 60032,
+        "6": 60028,
+        "8": 60020,
+        "10": 60024
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57824]": {
+      "table_file_offset": 59964,
+      "field_file_offsets": {
+        "4": 59980,
+        "6": 59976,
+        "8": 59968,
+        "10": 59972
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57828]": {
+      "table_file_offset": 59912,
+      "field_file_offsets": {
+        "4": 59928,
+        "6": 59924,
+        "8": 59916,
+        "10": 59920
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57832]": {
+      "table_file_offset": 59860,
+      "field_file_offsets": {
+        "4": 59876,
+        "6": 59872,
+        "8": 59864,
+        "10": 59868
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57836]": {
+      "table_file_offset": 59808,
+      "field_file_offsets": {
+        "4": 59824,
+        "6": 59820,
+        "8": 59812,
+        "10": 59816
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57840]": {
+      "table_file_offset": 59756,
+      "field_file_offsets": {
+        "4": 59772,
+        "6": 59768,
+        "8": 59760,
+        "10": 59764
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57844]": {
+      "table_file_offset": 59704,
+      "field_file_offsets": {
+        "4": 59720,
+        "6": 59716,
+        "8": 59708,
+        "10": 59712
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57848]": {
+      "table_file_offset": 59652,
+      "field_file_offsets": {
+        "4": 59668,
+        "6": 59664,
+        "8": 59656,
+        "10": 59660
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57852]": {
+      "table_file_offset": 59600,
+      "field_file_offsets": {
+        "4": 59616,
+        "6": 59612,
+        "8": 59604,
+        "10": 59608
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57856]": {
+      "table_file_offset": 59548,
+      "field_file_offsets": {
+        "4": 59564,
+        "6": 59560,
+        "8": 59552,
+        "10": 59556
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57860]": {
+      "table_file_offset": 59496,
+      "field_file_offsets": {
+        "4": 59512,
+        "6": 59508,
+        "8": 59500,
+        "10": 59504
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57864]": {
+      "table_file_offset": 59444,
+      "field_file_offsets": {
+        "4": 59460,
+        "6": 59456,
+        "8": 59448,
+        "10": 59452
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57868]": {
+      "table_file_offset": 59392,
+      "field_file_offsets": {
+        "4": 59408,
+        "6": 59404,
+        "8": 59396,
+        "10": 59400
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57872]": {
+      "table_file_offset": 59336,
+      "field_file_offsets": {
+        "4": 59356,
+        "6": 59352,
+        "8": 59340,
+        "10": 59348,
+        "12": 59344
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57876]": {
+      "table_file_offset": 59268,
+      "field_file_offsets": {
+        "4": 59288,
+        "6": 59284,
+        "8": 59272,
+        "10": 59280,
+        "12": 59276
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57880]": {
+      "table_file_offset": 59212,
+      "field_file_offsets": {
+        "4": 59232,
+        "6": 59228,
+        "8": 59216,
+        "10": 59224,
+        "12": 59220
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57884]": {
+      "table_file_offset": 59156,
+      "field_file_offsets": {
+        "4": 59176,
+        "6": 59172,
+        "8": 59160,
+        "10": 59168,
+        "12": 59164
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57888]": {
+      "table_file_offset": 59100,
+      "field_file_offsets": {
+        "4": 59120,
+        "6": 59116,
+        "8": 59104,
+        "10": 59112,
+        "12": 59108
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57892]": {
+      "table_file_offset": 59044,
+      "field_file_offsets": {
+        "4": 59064,
+        "6": 59060,
+        "8": 59048,
+        "10": 59056,
+        "12": 59052
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57896]": {
+      "table_file_offset": 58988,
+      "field_file_offsets": {
+        "4": 59008,
+        "6": 59004,
+        "8": 58992,
+        "10": 59000,
+        "12": 58996
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57900]": {
+      "table_file_offset": 58932,
+      "field_file_offsets": {
+        "4": 58952,
+        "6": 58948,
+        "8": 58936,
+        "10": 58944,
+        "12": 58940
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57904]": {
+      "table_file_offset": 58876,
+      "field_file_offsets": {
+        "4": 58896,
+        "6": 58892,
+        "8": 58880,
+        "10": 58888,
+        "12": 58884
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57908]": {
+      "table_file_offset": 58820,
+      "field_file_offsets": {
+        "4": 58840,
+        "6": 58836,
+        "8": 58824,
+        "10": 58832,
+        "12": 58828
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57912]": {
+      "table_file_offset": 58764,
+      "field_file_offsets": {
+        "4": 58784,
+        "6": 58780,
+        "8": 58768,
+        "10": 58776,
+        "12": 58772
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57916]": {
+      "table_file_offset": 58708,
+      "field_file_offsets": {
+        "4": 58728,
+        "6": 58724,
+        "8": 58712,
+        "10": 58720,
+        "12": 58716
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57920]": {
+      "table_file_offset": 58652,
+      "field_file_offsets": {
+        "4": 58672,
+        "6": 58668,
+        "8": 58656,
+        "10": 58664,
+        "12": 58660
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57924]": {
+      "table_file_offset": 58596,
+      "field_file_offsets": {
+        "4": 58616,
+        "6": 58612,
+        "8": 58600,
+        "10": 58608,
+        "12": 58604
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57928]": {
+      "table_file_offset": 58540,
+      "field_file_offsets": {
+        "4": 58560,
+        "6": 58556,
+        "8": 58544,
+        "10": 58552,
+        "12": 58548
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57932]": {
+      "table_file_offset": 58484,
+      "field_file_offsets": {
+        "4": 58504,
+        "6": 58500,
+        "8": 58488,
+        "10": 58496,
+        "12": 58492
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57936]": {
+      "table_file_offset": 58428,
+      "field_file_offsets": {
+        "4": 58448,
+        "6": 58444,
+        "8": 58432,
+        "10": 58440,
+        "12": 58436
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57940]": {
+      "table_file_offset": 58372,
+      "field_file_offsets": {
+        "4": 58392,
+        "6": 58388,
+        "8": 58376,
+        "10": 58384,
+        "12": 58380
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57944]": {
+      "table_file_offset": 58316,
+      "field_file_offsets": {
+        "4": 58336,
+        "6": 58332,
+        "8": 58320,
+        "10": 58328,
+        "12": 58324
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57948]": {
+      "table_file_offset": 58260,
+      "field_file_offsets": {
+        "4": 58280,
+        "6": 58276,
+        "8": 58264,
+        "10": 58272,
+        "12": 58268
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57952]": {
+      "table_file_offset": 58204,
+      "field_file_offsets": {
+        "4": 58224,
+        "6": 58220,
+        "8": 58208,
+        "10": 58216,
+        "12": 58212
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57956]": {
+      "table_file_offset": 58148,
+      "field_file_offsets": {
+        "4": 58168,
+        "6": 58164,
+        "8": 58152,
+        "10": 58160,
+        "12": 58156
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1.items[57960]": {
+      "table_file_offset": 58092,
+      "field_file_offsets": {
+        "4": 58112,
+        "6": 58108,
+        "8": 58096,
+        "10": 58104,
+        "12": 58100
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1_extra": {
+      "table_file_offset": 56444,
+      "field_file_offsets": {
+        "4": 56448
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1_extra.items[56328]": {
+      "table_file_offset": 57836,
+      "field_file_offsets": {
+        "4": 57852,
+        "6": 57848,
+        "8": 57840,
+        "10": 57844
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1_extra.items[56332]": {
+      "table_file_offset": 57800,
+      "field_file_offsets": {
+        "4": 57816,
+        "6": 57812,
+        "8": 57804,
+        "10": 57808
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1_extra.items[56336]": {
+      "table_file_offset": 57764,
+      "field_file_offsets": {
+        "4": 57780,
+        "6": 57776,
+        "8": 57768,
+        "10": 57772
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1_extra.items[56340]": {
+      "table_file_offset": 57728,
+      "field_file_offsets": {
+        "4": 57744,
+        "6": 57740,
+        "8": 57732,
+        "10": 57736
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1_extra.items[56344]": {
+      "table_file_offset": 57692,
+      "field_file_offsets": {
+        "4": 57708,
+        "6": 57704,
+        "8": 57696,
+        "10": 57700
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1_extra.items[56348]": {
+      "table_file_offset": 57656,
+      "field_file_offsets": {
+        "4": 57672,
+        "6": 57668,
+        "8": 57660,
+        "10": 57664
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1_extra.items[56352]": {
+      "table_file_offset": 57604,
+      "field_file_offsets": {
+        "4": 57620,
+        "6": 57616,
+        "8": 57608,
+        "10": 57612
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1_extra.items[56356]": {
+      "table_file_offset": 57552,
+      "field_file_offsets": {
+        "4": 57568,
+        "6": 57564,
+        "8": 57556,
+        "10": 57560
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1_extra.items[56360]": {
+      "table_file_offset": 57500,
+      "field_file_offsets": {
+        "4": 57516,
+        "6": 57512,
+        "8": 57504,
+        "10": 57508
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1_extra.items[56364]": {
+      "table_file_offset": 57448,
+      "field_file_offsets": {
+        "4": 57464,
+        "6": 57460,
+        "8": 57452,
+        "10": 57456
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1_extra.items[56368]": {
+      "table_file_offset": 57396,
+      "field_file_offsets": {
+        "4": 57412,
+        "6": 57408,
+        "8": 57400,
+        "10": 57404
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1_extra.items[56372]": {
+      "table_file_offset": 57344,
+      "field_file_offsets": {
+        "4": 57360,
+        "6": 57356,
+        "8": 57348,
+        "10": 57352
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1_extra.items[56376]": {
+      "table_file_offset": 57292,
+      "field_file_offsets": {
+        "4": 57308,
+        "6": 57304,
+        "8": 57296,
+        "10": 57300
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1_extra.items[56380]": {
+      "table_file_offset": 57240,
+      "field_file_offsets": {
+        "4": 57256,
+        "6": 57252,
+        "8": 57244,
+        "10": 57248
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1_extra.items[56384]": {
+      "table_file_offset": 57188,
+      "field_file_offsets": {
+        "4": 57204,
+        "6": 57200,
+        "8": 57192,
+        "10": 57196
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1_extra.items[56388]": {
+      "table_file_offset": 57136,
+      "field_file_offsets": {
+        "4": 57152,
+        "6": 57148,
+        "8": 57140,
+        "10": 57144
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1_extra.items[56392]": {
+      "table_file_offset": 57084,
+      "field_file_offsets": {
+        "4": 57100,
+        "6": 57096,
+        "8": 57088,
+        "10": 57092
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1_extra.items[56396]": {
+      "table_file_offset": 57032,
+      "field_file_offsets": {
+        "4": 57048,
+        "6": 57044,
+        "8": 57036,
+        "10": 57040
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1_extra.items[56400]": {
+      "table_file_offset": 56980,
+      "field_file_offsets": {
+        "4": 56996,
+        "6": 56992,
+        "8": 56984,
+        "10": 56988
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1_extra.items[56404]": {
+      "table_file_offset": 56928,
+      "field_file_offsets": {
+        "4": 56944,
+        "6": 56940,
+        "8": 56932,
+        "10": 56936
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1_extra.items[56408]": {
+      "table_file_offset": 56876,
+      "field_file_offsets": {
+        "4": 56892,
+        "6": 56888,
+        "8": 56880,
+        "10": 56884
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1_extra.items[56412]": {
+      "table_file_offset": 56824,
+      "field_file_offsets": {
+        "4": 56840,
+        "6": 56836,
+        "8": 56828,
+        "10": 56832
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1_extra.items[56416]": {
+      "table_file_offset": 56772,
+      "field_file_offsets": {
+        "4": 56788,
+        "6": 56784,
+        "8": 56776,
+        "10": 56780
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1_extra.items[56420]": {
+      "table_file_offset": 56720,
+      "field_file_offsets": {
+        "4": 56736,
+        "6": 56732,
+        "8": 56724,
+        "10": 56728
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1_extra.items[56424]": {
+      "table_file_offset": 56668,
+      "field_file_offsets": {
+        "4": 56684,
+        "6": 56680,
+        "8": 56672,
+        "10": 56676
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1_extra.items[56428]": {
+      "table_file_offset": 56616,
+      "field_file_offsets": {
+        "4": 56632,
+        "6": 56628,
+        "8": 56620,
+        "10": 56624
+      }
+    },
+    "recycleRoomOutputPoolContentDatas.itemPool1_extra.items[56432]": {
+      "table_file_offset": 56564,
+      "field_file_offsets": {
+        "4": 56580,
+        "6": 56576,
+        "8": 56568,
+        "10": 56572
+      }
+    },
+    "recycleRoomInputItemDatas.30063": {
+      "table_file_offset": 61740,
+      "field_file_offsets": {
+        "4": 61756,
+        "6": 61744
+      }
+    },
+    "recycleRoomInputItemDatas.30103": {
+      "table_file_offset": 61676,
+      "field_file_offsets": {
+        "4": 61692,
+        "6": 61680
+      }
+    },
+    "recycleRoomInputItemDatas.31083": {
+      "table_file_offset": 61620,
+      "field_file_offsets": {
+        "4": 61636,
+        "6": 61624
+      }
+    },
+    "recycleRoomInputItemDatas.31103": {
+      "table_file_offset": 61564,
+      "field_file_offsets": {
+        "4": 61580,
+        "6": 61568
+      }
+    },
+    "recycleRoomInputItemDatas.31113": {
+      "table_file_offset": 61508,
+      "field_file_offsets": {
+        "4": 61524,
+        "6": 61512
+      }
+    },
+    "recycleRoomInputItemDatas.31063": {
+      "table_file_offset": 61452,
+      "field_file_offsets": {
+        "4": 61468,
+        "6": 61456
+      }
+    },
+    "recycleRoomInputItemDatas.31073": {
+      "table_file_offset": 61396,
+      "field_file_offsets": {
+        "4": 61412,
+        "6": 61400
+      }
+    },
+    "recycleRoomInputItemDatas.30093": {
+      "table_file_offset": 61340,
+      "field_file_offsets": {
+        "4": 61356,
+        "6": 61344
+      }
+    },
+    "recycleRoomInputItemDatas.31013": {
+      "table_file_offset": 61284,
+      "field_file_offsets": {
+        "4": 61300,
+        "6": 61288
+      }
+    },
+    "recycleRoomInputItemDatas.31043": {
+      "table_file_offset": 61228,
+      "field_file_offsets": {
+        "4": 61244,
+        "6": 61232
+      }
+    },
+    "recycleRoomInputItemDatas.31053": {
+      "table_file_offset": 61172,
+      "field_file_offsets": {
+        "4": 61188,
+        "6": 61176
+      }
+    },
+    "recycleRoomInputItemDatas.31093": {
+      "table_file_offset": 61116,
+      "field_file_offsets": {
+        "4": 61132,
+        "6": 61120
+      }
+    },
+    "recycleRoomInputItemDatas.30083": {
+      "table_file_offset": 61060,
+      "field_file_offsets": {
+        "4": 61076,
+        "6": 61064
+      }
+    },
+    "recycleRoomInputItemDatas.30043": {
+      "table_file_offset": 61004,
+      "field_file_offsets": {
+        "4": 61020,
+        "6": 61008
+      }
+    },
+    "recycleRoomInputItemDatas.30053": {
+      "table_file_offset": 60948,
+      "field_file_offsets": {
+        "4": 60964,
+        "6": 60952
+      }
+    },
+    "recycleRoomInputItemDatas.31023": {
+      "table_file_offset": 60892,
+      "field_file_offsets": {
+        "4": 60908,
+        "6": 60896
+      }
+    },
+    "recycleRoomInputItemDatas.31033": {
+      "table_file_offset": 60836,
+      "field_file_offsets": {
+        "4": 60852,
+        "6": 60840
+      }
+    },
+    "recycleRoomInputItemDatas.30073": {
+      "table_file_offset": 60780,
+      "field_file_offsets": {
+        "4": 60796,
+        "6": 60784
+      }
+    },
+    "recycleRoomInputItemDatas.30023": {
+      "table_file_offset": 60724,
+      "field_file_offsets": {
+        "4": 60740,
+        "6": 60728
+      }
+    },
+    "recycleRoomInputItemDatas.30033": {
+      "table_file_offset": 60668,
+      "field_file_offsets": {
+        "4": 60684,
+        "6": 60672
+      }
+    },
+    "recycleRoomInputItemDatas.30013": {
+      "table_file_offset": 60612,
+      "field_file_offsets": {
+        "4": 60628,
+        "6": 60616
+      }
+    },
+    "recycleRoomConsts": {
+      "table_file_offset": 61800,
+      "field_file_offsets": {
+        "4": 61808,
+        "6": 61840,
+        "8": 61820,
+        "10": 61832,
+        "12": 61824,
+        "14": 61816,
+        "16": 61804
+      }
+    }
+  }
+}

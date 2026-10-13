@@ -38,7 +38,7 @@ const catNames = new Set([...cat.matchAll(/^- \*\*(.+?)\*\*(?:（\d+）)?：/gm)
 
 const ost = JSON.parse(readFileSync('meta/mirror/RIIC-Web/clean/operator-skill-text.json', 'utf8'));
 const terms = JSON.parse(readFileSync('meta/mirror/RIIC-Web/clean/term-catalog.json', 'utf8'));
-const ROOM = { control: '技能-控制中枢.md', manu: '技能-制造站.md', trade: '技能-贸易站.md', dorm: '技能-宿舍.md', meet: '技能-会客室.md', hire: '技能-办公室.md', power: '技能-发电站.md', train: '技能-训练室.md', workshop: '技能-加工站.md' };
+const ROOM = { control: '技能-控制中枢.md', manu: '技能-制造站.md', trade: '技能-贸易站.md', dorm: '技能-宿舍.md', meet: '技能-会客室.md', hire: '技能-办公室.md', power: '技能-发电站.md', train: '技能-训练室.md', workshop: '技能-加工站.md', recycle: '技能-回收站.md' };
 
 const jsonNames = new Set(ost.map((o) => o.name));
 const newOps = ost.filter((o) => !rosterNames.has(o.name)).map((o) => ({ name: o.name, star: o.rarity, prof: o.professionLabel, skills: o.skills.map((s) => ({ ...s, file: ROOM[s.id.split('_')[0]] })) }));

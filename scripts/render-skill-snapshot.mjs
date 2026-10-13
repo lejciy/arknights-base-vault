@@ -41,9 +41,9 @@ for (const [term, r] of Object.entries(rosters)) {
   if (unknown.length) throw new Error(`term-rosters.json「${term}」成员不在干员目录，需先核对：${unknown.join('、')}`);
 }
 
-const ROOM_FILE = { control: '技能-控制中枢.md', manu: '技能-制造站.md', trade: '技能-贸易站.md', dorm: '技能-宿舍.md', meet: '技能-会客室.md', hire: '技能-办公室.md', power: '技能-发电站.md', train: '技能-训练室.md', workshop: '技能-加工站.md' };
-const ROOM_LABEL = { control: '控制中枢', manu: '制造站', trade: '贸易站', dorm: '宿舍', meet: '会客室', hire: '办公室', power: '发电站', train: '训练室', workshop: '加工站' };
-const ROOM_ORDER = ['control', 'manu', 'trade', 'dorm', 'meet', 'hire', 'power', 'train', 'workshop'];
+const ROOM_FILE = { control: '技能-控制中枢.md', manu: '技能-制造站.md', trade: '技能-贸易站.md', dorm: '技能-宿舍.md', meet: '技能-会客室.md', hire: '技能-办公室.md', power: '技能-发电站.md', train: '技能-训练室.md', workshop: '技能-加工站.md', recycle: '技能-回收站.md' };
+const ROOM_LABEL = { control: '控制中枢', manu: '制造站', trade: '贸易站', dorm: '宿舍', meet: '会客室', hire: '办公室', power: '发电站', train: '训练室', workshop: '加工站', recycle: '回收站' };
+const ROOM_ORDER = ['control', 'manu', 'trade', 'dorm', 'meet', 'hire', 'power', 'train', 'workshop', 'recycle'];
 const roomKey = (id) => id.split('_')[0];
 
 const unlockShort = (u) => (u.startsWith('等级') ? '(Lv.30)' : u === '初始解锁' ? '(精0)' : u.includes('精英 1') ? '(精1)' : '(精2)');
@@ -243,7 +243,11 @@ for (const rk of ROOM_ORDER) {
 `;
   for (const rk of ROOM_ORDER) {
     const gs = groups.filter((g) => g.rk === rk).sort((a, b) => (a.names[0] < b.names[0] ? -1 : 1));
-    if (!gs.length) continue;
+    if (!gs.length) {
+      // 无组设施也出节：区分「已收录、当前无同效组」与「未收录」（如回收站仅旅骨两段链，描述互不相同）
+      out += `\n## ${ROOM_LABEL[rk]}\n\n暂无等价组：该设施现有技能的描述均无逐字相同者，技能原文见「技能-${ROOM_LABEL[rk]}.md」分片。\n`;
+      continue;
+    }
     out += `\n## ${ROOM_LABEL[rk]}\n\n`;
     for (const g of gs) {
       out += `- **${g.names.join(' ＝ ')}**\n  - 效果：${g.desc}\n  - 持有者：${g.holders.map((h) => `${h.name}☆${h.star}${unlockShort(h.unlock)}`).join('、')}\n\n`;

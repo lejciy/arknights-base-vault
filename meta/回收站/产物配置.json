@@ -1,0 +1,1170 @@
+{
+  "schema_version": 1,
+  "origin": {
+    "kind": "github-local",
+    "repository": "Kengxxiao/ArknightsGameData",
+    "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+    "files": {
+      "zh_CN/gamedata/excel/building_data.json": {
+        "sha256": "b98657bc691224a01d3cd044bf68698e9664e7f26c5d24ae104352be7954049b"
+      },
+      "zh_CN/gamedata/excel/item_table.json": {
+        "sha256": "b909f23b29bb06bdecaaa6eda7b8bdb21a1a7434ebc51b94bfb93b289c535826"
+      }
+    }
+  },
+  "data": {
+    "recycleData": {
+      "basicSpeedBuff": 0.01,
+      "phases": [
+        {
+          "recycleCapacity": 0,
+          "recycleSpeed": 1.0
+        },
+        {
+          "recycleCapacity": 5,
+          "recycleSpeed": 1.0
+        },
+        {
+          "recycleCapacity": 5,
+          "recycleSpeed": 1.2
+        }
+      ]
+    },
+    "recycleRoomConsts": {
+      "recycleTimeRequirement": 172800,
+      "recycleBaseCapacity": 5,
+      "recycleBoostSpeed": 0.5,
+      "recycleBoostLimit": 345600,
+      "recycleBoostLimitProtect": 691200,
+      "recycleSpeedUpUnlockLevel": 3,
+      "recycleTwoPersonUnlockLevel": 2
+    },
+    "recycleRoomOutputPoolDatas": {
+      "itemPool1": {
+        "itemPoolId": "itemPool1",
+        "itemPoolStartTime": 1791489600,
+        "itemPoolEndTime": 4101681599,
+        "extraPoolId": "itemPool1_extra",
+        "extraPoolRequirement": 10000
+      }
+    },
+    "recycleRoomOutputPoolContentDatas": {
+      "itemPool1": {
+        "items": [
+          {
+            "itemId": "31034",
+            "targetTags": [
+              "31033"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30044",
+            "targetTags": [
+              "30041"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30054",
+            "targetTags": [
+              "30051"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31084",
+            "targetTags": [
+              "31083"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31074",
+            "targetTags": [
+              "31073"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31024",
+            "targetTags": [
+              "31023"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31044",
+            "targetTags": [
+              "31043"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31054",
+            "targetTags": [
+              "31053"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31094",
+            "targetTags": [
+              "31093"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31064",
+            "targetTags": [
+              "31063"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31104",
+            "targetTags": [
+              "31103"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31114",
+            "targetTags": [
+              "31113"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30064",
+            "targetTags": [
+              "30061"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30104",
+            "targetTags": [
+              "30103"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30084",
+            "targetTags": [
+              "30083"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30034",
+            "targetTags": [
+              "30031"
+            ],
+            "weight": 4,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30094",
+            "targetTags": [
+              "30093"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30024",
+            "targetTags": [
+              "30021"
+            ],
+            "weight": 4,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30074",
+            "targetTags": [
+              "30073"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31014",
+            "targetTags": [
+              "31013"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30014",
+            "targetTags": [
+              "30011"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30063",
+            "targetTags": [
+              "30061"
+            ],
+            "weight": 290,
+            "count": 1,
+            "extraPoolValueChange": 500,
+            "isNew": false
+          },
+          {
+            "itemId": "31083",
+            "targetTags": [
+              "31083"
+            ],
+            "weight": 290,
+            "count": 1,
+            "extraPoolValueChange": 500,
+            "isNew": false
+          },
+          {
+            "itemId": "31103",
+            "targetTags": [
+              "31103"
+            ],
+            "weight": 290,
+            "count": 1,
+            "extraPoolValueChange": 500,
+            "isNew": false
+          },
+          {
+            "itemId": "31113",
+            "targetTags": [
+              "31113"
+            ],
+            "weight": 290,
+            "count": 1,
+            "extraPoolValueChange": 500,
+            "isNew": false
+          },
+          {
+            "itemId": "31063",
+            "targetTags": [
+              "31063"
+            ],
+            "weight": 290,
+            "count": 1,
+            "extraPoolValueChange": 500,
+            "isNew": false
+          },
+          {
+            "itemId": "31073",
+            "targetTags": [
+              "31073"
+            ],
+            "weight": 290,
+            "count": 1,
+            "extraPoolValueChange": 500,
+            "isNew": false
+          },
+          {
+            "itemId": "31013",
+            "targetTags": [
+              "31013"
+            ],
+            "weight": 290,
+            "count": 1,
+            "extraPoolValueChange": 500,
+            "isNew": false
+          },
+          {
+            "itemId": "31043",
+            "targetTags": [
+              "31043"
+            ],
+            "weight": 290,
+            "count": 1,
+            "extraPoolValueChange": 500,
+            "isNew": false
+          },
+          {
+            "itemId": "31053",
+            "targetTags": [
+              "31053"
+            ],
+            "weight": 290,
+            "count": 1,
+            "extraPoolValueChange": 500,
+            "isNew": false
+          },
+          {
+            "itemId": "31093",
+            "targetTags": [
+              "31093"
+            ],
+            "weight": 290,
+            "count": 1,
+            "extraPoolValueChange": 500,
+            "isNew": false
+          },
+          {
+            "itemId": "30043",
+            "targetTags": [
+              "30041"
+            ],
+            "weight": 290,
+            "count": 1,
+            "extraPoolValueChange": 500,
+            "isNew": false
+          },
+          {
+            "itemId": "30053",
+            "targetTags": [
+              "30051"
+            ],
+            "weight": 290,
+            "count": 1,
+            "extraPoolValueChange": 500,
+            "isNew": false
+          },
+          {
+            "itemId": "31023",
+            "targetTags": [
+              "31023"
+            ],
+            "weight": 290,
+            "count": 1,
+            "extraPoolValueChange": 500,
+            "isNew": false
+          },
+          {
+            "itemId": "31033",
+            "targetTags": [
+              "31033"
+            ],
+            "weight": 290,
+            "count": 1,
+            "extraPoolValueChange": 500,
+            "isNew": false
+          },
+          {
+            "itemId": "30023",
+            "targetTags": [
+              "30021"
+            ],
+            "weight": 290,
+            "count": 1,
+            "extraPoolValueChange": 500,
+            "isNew": false
+          },
+          {
+            "itemId": "30033",
+            "targetTags": [
+              "30031"
+            ],
+            "weight": 290,
+            "count": 1,
+            "extraPoolValueChange": 500,
+            "isNew": false
+          },
+          {
+            "itemId": "30013",
+            "targetTags": [
+              "30011"
+            ],
+            "weight": 290,
+            "count": 1,
+            "extraPoolValueChange": 500,
+            "isNew": false
+          },
+          {
+            "itemId": "30062",
+            "targetTags": [
+              "30061"
+            ],
+            "weight": 717,
+            "count": 1,
+            "extraPoolValueChange": 650,
+            "isNew": false
+          },
+          {
+            "itemId": "30042",
+            "targetTags": [
+              "30041"
+            ],
+            "weight": 717,
+            "count": 1,
+            "extraPoolValueChange": 650,
+            "isNew": false
+          },
+          {
+            "itemId": "30052",
+            "targetTags": [
+              "30051"
+            ],
+            "weight": 717,
+            "count": 1,
+            "extraPoolValueChange": 650,
+            "isNew": false
+          },
+          {
+            "itemId": "30022",
+            "targetTags": [
+              "30021"
+            ],
+            "weight": 717,
+            "count": 1,
+            "extraPoolValueChange": 650,
+            "isNew": false
+          },
+          {
+            "itemId": "30032",
+            "targetTags": [
+              "30031"
+            ],
+            "weight": 717,
+            "count": 1,
+            "extraPoolValueChange": 650,
+            "isNew": false
+          },
+          {
+            "itemId": "30012",
+            "targetTags": [
+              "30011"
+            ],
+            "weight": 717,
+            "count": 1,
+            "extraPoolValueChange": 650,
+            "isNew": false
+          }
+        ]
+      },
+      "itemPool1_extra": {
+        "items": [
+          {
+            "itemId": "30165",
+            "targetTags": [],
+            "weight": 168,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30145",
+            "targetTags": [],
+            "weight": 168,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30155",
+            "targetTags": [],
+            "weight": 168,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30115",
+            "targetTags": [],
+            "weight": 168,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30125",
+            "targetTags": [],
+            "weight": 168,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30135",
+            "targetTags": [],
+            "weight": 168,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31034",
+            "targetTags": [
+              "31033"
+            ],
+            "weight": 468,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30044",
+            "targetTags": [
+              "30041"
+            ],
+            "weight": 468,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30054",
+            "targetTags": [
+              "30051"
+            ],
+            "weight": 468,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31084",
+            "targetTags": [
+              "31083"
+            ],
+            "weight": 468,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31074",
+            "targetTags": [
+              "31073"
+            ],
+            "weight": 468,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31024",
+            "targetTags": [
+              "31023"
+            ],
+            "weight": 468,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31044",
+            "targetTags": [
+              "31043"
+            ],
+            "weight": 468,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30064",
+            "targetTags": [
+              "30061"
+            ],
+            "weight": 468,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30104",
+            "targetTags": [
+              "30103"
+            ],
+            "weight": 468,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30084",
+            "targetTags": [
+              "30083"
+            ],
+            "weight": 468,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30034",
+            "targetTags": [
+              "30031"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30094",
+            "targetTags": [
+              "30093"
+            ],
+            "weight": 468,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30024",
+            "targetTags": [
+              "30021"
+            ],
+            "weight": 40,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30074",
+            "targetTags": [
+              "30073"
+            ],
+            "weight": 468,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31054",
+            "targetTags": [
+              "31053"
+            ],
+            "weight": 468,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31094",
+            "targetTags": [
+              "31093"
+            ],
+            "weight": 468,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31064",
+            "targetTags": [
+              "31063"
+            ],
+            "weight": 468,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31104",
+            "targetTags": [
+              "31103"
+            ],
+            "weight": 468,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31114",
+            "targetTags": [
+              "31113"
+            ],
+            "weight": 468,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "31014",
+            "targetTags": [
+              "31013"
+            ],
+            "weight": 468,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          },
+          {
+            "itemId": "30014",
+            "targetTags": [
+              "30011"
+            ],
+            "weight": 488,
+            "count": 1,
+            "extraPoolValueChange": 0,
+            "isNew": false
+          }
+        ]
+      }
+    },
+    "recycleRoomInputItemDatas": {
+      "30063": {
+        "itemId": "30063",
+        "addedTime": 16200
+      },
+      "30103": {
+        "itemId": "30103",
+        "addedTime": 16200
+      },
+      "31083": {
+        "itemId": "31083",
+        "addedTime": 16200
+      },
+      "31103": {
+        "itemId": "31103",
+        "addedTime": 16200
+      },
+      "31113": {
+        "itemId": "31113",
+        "addedTime": 16200
+      },
+      "31063": {
+        "itemId": "31063",
+        "addedTime": 14400
+      },
+      "31073": {
+        "itemId": "31073",
+        "addedTime": 14400
+      },
+      "30093": {
+        "itemId": "30093",
+        "addedTime": 12600
+      },
+      "31013": {
+        "itemId": "31013",
+        "addedTime": 12600
+      },
+      "31043": {
+        "itemId": "31043",
+        "addedTime": 12600
+      },
+      "31053": {
+        "itemId": "31053",
+        "addedTime": 12600
+      },
+      "31093": {
+        "itemId": "31093",
+        "addedTime": 12600
+      },
+      "30083": {
+        "itemId": "30083",
+        "addedTime": 10800
+      },
+      "30043": {
+        "itemId": "30043",
+        "addedTime": 10800
+      },
+      "30053": {
+        "itemId": "30053",
+        "addedTime": 10800
+      },
+      "31023": {
+        "itemId": "31023",
+        "addedTime": 10800
+      },
+      "31033": {
+        "itemId": "31033",
+        "addedTime": 10800
+      },
+      "30073": {
+        "itemId": "30073",
+        "addedTime": 9000
+      },
+      "30023": {
+        "itemId": "30023",
+        "addedTime": 9000
+      },
+      "30033": {
+        "itemId": "30033",
+        "addedTime": 9000
+      },
+      "30013": {
+        "itemId": "30013",
+        "addedTime": 7200
+      }
+    },
+    "room": {
+      "id": "RECYCLE",
+      "name": "回收站",
+      "description": "罗德岛的材料转化设施，通过研究已知材料的结构和特性，回收材料，可以产出全新的材料。",
+      "defaultPrefabId": "room_recycle_4x2",
+      "canLevelDown": false,
+      "maxCount": 1,
+      "category": "FUNCTION",
+      "size": {
+        "row": 2,
+        "col": 4
+      },
+      "phases": [
+        {
+          "overrideName": null,
+          "overridePrefabId": null,
+          "unlockCondId": "RECYCLE#1",
+          "buildCost": {
+            "items": [
+              {
+                "id": "3131",
+                "count": 1,
+                "type": "MATERIAL"
+              }
+            ],
+            "time": 0,
+            "labor": 10
+          },
+          "electricity": 0,
+          "maxStationedNum": 1,
+          "manpowerCost": 100
+        },
+        {
+          "overrideName": null,
+          "overridePrefabId": null,
+          "unlockCondId": "RECYCLE#2",
+          "buildCost": {
+            "items": [
+              {
+                "id": "3132",
+                "count": 3,
+                "type": "MATERIAL"
+              }
+            ],
+            "time": 0,
+            "labor": 60
+          },
+          "electricity": 0,
+          "maxStationedNum": 2,
+          "manpowerCost": 100
+        },
+        {
+          "overrideName": null,
+          "overridePrefabId": null,
+          "unlockCondId": "RECYCLE#3",
+          "buildCost": {
+            "items": [
+              {
+                "id": "3133",
+                "count": 5,
+                "type": "MATERIAL"
+              }
+            ],
+            "time": 0,
+            "labor": 120
+          },
+          "electricity": 0,
+          "maxStationedNum": 2,
+          "manpowerCost": 100
+        }
+      ]
+    },
+    "unlocks": {
+      "RECYCLE#1": {
+        "id": "RECYCLE#1",
+        "number": {
+          "1": {
+            "type": "TRAINING",
+            "level": 1,
+            "count": 1
+          }
+        }
+      },
+      "RECYCLE#2": {
+        "id": "RECYCLE#2",
+        "number": {
+          "1": {
+            "type": "CONTROL",
+            "level": 5,
+            "count": 1
+          }
+        }
+      },
+      "RECYCLE#3": {
+        "id": "RECYCLE#3",
+        "number": {
+          "1": {
+            "type": "CONTROL",
+            "level": 5,
+            "count": 1
+          }
+        }
+      }
+    }
+  },
+  "items": {
+    "30012": {
+      "name": "固源岩",
+      "rarity": 1
+    },
+    "30013": {
+      "name": "固源岩组",
+      "rarity": 2
+    },
+    "30014": {
+      "name": "提纯源岩",
+      "rarity": 3
+    },
+    "30022": {
+      "name": "糖",
+      "rarity": 1
+    },
+    "30023": {
+      "name": "糖组",
+      "rarity": 2
+    },
+    "30024": {
+      "name": "糖聚块",
+      "rarity": 3
+    },
+    "30032": {
+      "name": "聚酸酯",
+      "rarity": 1
+    },
+    "30033": {
+      "name": "聚酸酯组",
+      "rarity": 2
+    },
+    "30034": {
+      "name": "聚酸酯块",
+      "rarity": 3
+    },
+    "30042": {
+      "name": "异铁",
+      "rarity": 1
+    },
+    "30043": {
+      "name": "异铁组",
+      "rarity": 2
+    },
+    "30044": {
+      "name": "异铁块",
+      "rarity": 3
+    },
+    "30052": {
+      "name": "酮凝集",
+      "rarity": 1
+    },
+    "30053": {
+      "name": "酮凝集组",
+      "rarity": 2
+    },
+    "30054": {
+      "name": "酮阵列",
+      "rarity": 3
+    },
+    "30062": {
+      "name": "装置",
+      "rarity": 1
+    },
+    "30063": {
+      "name": "全新装置",
+      "rarity": 2
+    },
+    "30064": {
+      "name": "改量装置",
+      "rarity": 3
+    },
+    "30073": {
+      "name": "扭转醇",
+      "rarity": 2
+    },
+    "30074": {
+      "name": "白马醇",
+      "rarity": 3
+    },
+    "30083": {
+      "name": "轻锰矿",
+      "rarity": 2
+    },
+    "30084": {
+      "name": "三水锰矿",
+      "rarity": 3
+    },
+    "30093": {
+      "name": "研磨石",
+      "rarity": 2
+    },
+    "30094": {
+      "name": "五水研磨石",
+      "rarity": 3
+    },
+    "30103": {
+      "name": "RMA70-12",
+      "rarity": 2
+    },
+    "30104": {
+      "name": "RMA70-24",
+      "rarity": 3
+    },
+    "30115": {
+      "name": "聚合剂",
+      "rarity": 4
+    },
+    "30125": {
+      "name": "双极纳米片",
+      "rarity": 4
+    },
+    "30135": {
+      "name": "D32钢",
+      "rarity": 4
+    },
+    "30145": {
+      "name": "晶体电子单元",
+      "rarity": 4
+    },
+    "30155": {
+      "name": "烧结核凝晶",
+      "rarity": 4
+    },
+    "30165": {
+      "name": "重相位对映体",
+      "rarity": 4
+    },
+    "31013": {
+      "name": "凝胶",
+      "rarity": 2
+    },
+    "31014": {
+      "name": "聚合凝胶",
+      "rarity": 3
+    },
+    "31023": {
+      "name": "炽合金",
+      "rarity": 2
+    },
+    "31024": {
+      "name": "炽合金块",
+      "rarity": 3
+    },
+    "31033": {
+      "name": "晶体元件",
+      "rarity": 2
+    },
+    "31034": {
+      "name": "晶体电路",
+      "rarity": 3
+    },
+    "31043": {
+      "name": "半自然溶剂",
+      "rarity": 2
+    },
+    "31044": {
+      "name": "精炼溶剂",
+      "rarity": 3
+    },
+    "31053": {
+      "name": "化合切削液",
+      "rarity": 2
+    },
+    "31054": {
+      "name": "切削原液",
+      "rarity": 3
+    },
+    "31063": {
+      "name": "转质盐组",
+      "rarity": 2
+    },
+    "31064": {
+      "name": "转质盐聚块",
+      "rarity": 3
+    },
+    "31073": {
+      "name": "褐素纤维",
+      "rarity": 2
+    },
+    "31074": {
+      "name": "固化纤维板",
+      "rarity": 3
+    },
+    "31083": {
+      "name": "环烃聚质",
+      "rarity": 2
+    },
+    "31084": {
+      "name": "环烃预制体",
+      "rarity": 3
+    },
+    "31093": {
+      "name": "类凝结核",
+      "rarity": 2
+    },
+    "31094": {
+      "name": "手性屈光体",
+      "rarity": 3
+    },
+    "31103": {
+      "name": "液化高能气体",
+      "rarity": 2
+    },
+    "31104": {
+      "name": "液化醚吸聚体",
+      "rarity": 3
+    },
+    "31113": {
+      "name": "电极单元",
+      "rarity": 2
+    },
+    "31114": {
+      "name": "聚能动力单元",
+      "rarity": 3
+    }
+  },
+  "selected_at": "2026-10-13T12:00:00+08:00"
+}
